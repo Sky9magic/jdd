@@ -1,8 +1,7 @@
 .head {
     background-color: rgb(255, 230, 197);
-    border: 5px solid rgb(255, 230, 197);
+    border-bottom: 5px solid rgb(255, 255, 255);
     padding: 20px;
-    margin: 10px;
     align-items: center;
     display: flex;
 }

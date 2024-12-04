@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(40, 40, 40);
+    margin: 0; /* Remove default margin for full screen coverage */
+    height: 100vh; /* Make sure the background covers the full viewport height */
+}
+
+.main{
+    color: white;
+    font-size: 100px;
+    align-items: center;
+    width: auto;
+}

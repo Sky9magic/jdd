@@ -1,11 +1,14 @@
 import React from "react";
-import Header from "../components/header"; // Adjust the path to your Header component
+import Header from "../components/header";
+import "../styles/home.css"
 
 export default function Home() {
     return (
         <>
             <Header/>
-            <h2>Welcome to the Home Page</h2>
+            <div className = "main">
+                <h2>Welcome to the Home Page</h2>
+            </div>
         </>
     );
 }
