@@ -14,6 +14,7 @@ export default function Header() {
                     <li><Link href="/settings">Settings</Link></li>
                 </ul>
             </nav>
+            <hr></hr>
         </header>
     );
 }
