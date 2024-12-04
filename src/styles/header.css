@@ -51,11 +51,11 @@
 .main a {
     color: inherit;
     transition: all 0.5s ease;
-    padding: 12px;
+    padding: 13px;
 }
 
 .main a:hover {
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: hsl(184, 100%, 73%);
     color: hsl(229, 100%, 46%);
 }
