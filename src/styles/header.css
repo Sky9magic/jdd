@@ -47,15 +47,3 @@
     align-items: center;
     width: 100%;
 }
-
-.main a {
-    color: inherit;
-    transition: all 0.5s ease;
-    padding: 13px;
-}
-
-.main a:hover {
-    border-radius: 10px;
-    background-color: hsl(184, 100%, 73%);
-    color: hsl(229, 100%, 46%);
-}
