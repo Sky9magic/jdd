@@ -5,7 +5,7 @@ export default function Home() {
                 jd web
             </h1>
             <nav>
-                <ul>Home</ul>
+                <ul><a href = "">Home</a></ul>
                 <ul><a href = "problems">Problems</a></ul>
                 <ul><a href = "submissions">Submissions</a></ul>
                 <ul><a href = "contests" >Contests</a></ul>
