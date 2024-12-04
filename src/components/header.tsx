@@ -7,7 +7,7 @@ export default function Header() {
         <div className = "head">
             <div className = "webname">
                 <img className = "logo" src = "/logo.png"></img>
-                <p style = {{margin: "15px", fontSize: "30px"}}>Junior Dev Official Website</p>
+                <div className = "main"><p style = {{margin: "15px", fontSize: "30px", color: "black"}}><Link href="/">Junior Dev Official Website</Link></p></div>
             </div>
             <div className = "headTextContent">
                 <div className = "headText">

@@ -32,7 +32,7 @@
 
 .headText a:hover {
     border-radius: 8px;
-    background-color: hsl(184, 100%, 67%);
+    background-color: hsl(184, 100%, 73%);
     color: hsl(229, 100%, 46%);
 }
 
@@ -46,4 +46,16 @@
     display: flex;
     align-items: center;
     width: 800px;
+}
+
+.main a {
+    color: inherit;
+    transition: all 0.5s ease;
+    padding: 12px;
+}
+
+.main a:hover {
+    border-radius: 8px;
+    background-color: hsl(184, 100%, 73%);
+    color: hsl(229, 100%, 46%);
 }
