@@ -1,7 +1,9 @@
 .head {
-    background-color: rgb(255, 230, 197);
-    border-bottom: 5px solid rgb(208, 255, 253);
-    padding: 20px;
+    background-color: rgb(208, 255, 253);
+    border-bottom: 5px solid rgb(77, 106, 255);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     align-items: center;
     display: flex;
 }
@@ -15,11 +17,23 @@
 .headText{
     display: flex;
     margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .headText > p{
     margin: 20px;
+}
+
+.headText a {
+    color: inherit;
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+
+.headText a:hover {
+    border-radius: 8px;
+    background-color: hsl(184, 100%, 67%);
+    color: hsl(229, 100%, 46%);
 }
 
 .headTextContent {
