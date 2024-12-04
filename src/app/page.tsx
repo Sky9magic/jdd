@@ -1,5 +1,3 @@
-import header from './header.tsx'
-
 export default function Home() {
     return(
         <header>
