@@ -11,11 +11,10 @@ export default function Header() {
             </div>
             <div className = "headTextContent">
                 <div className = "headText">
-                    <p><Link href="/">Home</Link></p>
-                    <p><Link href="/problems">Problems</Link></p>
-                    <p><Link href="/submissions">Submissions</Link></p>
-                    <p><Link href="/contests">Contests</Link></p>
-                    <p><Link href="/settings">Settings</Link></p>
+                    <p style = {{margin: "15px", fontSize: "30px", color: "black"}}><Link href="/">Home</Link></p>
+                    <p style = {{margin: "15px", fontSize: "30px", color: "black"}}><Link href="/problems">Problems</Link></p>
+                    <p style = {{margin: "15px", fontSize: "30px", color: "black"}}><Link href="/contests">Contests</Link></p>
+                    <p style = {{margin: "15px", fontSize: "30px", color: "black"}}><Link href="/settings">Settings</Link></p>
                 </div>
             </div>
             <hr></hr>
