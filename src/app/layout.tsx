@@ -17,9 +17,6 @@ export const metadata: Metadata = {
   title: "Junior Dev",
   description: "Junior Dev Official Website",
   openGraph: {
-    title: "Junior Dev",
-    description: "Junior Dev Official Website",
-    url: "https://beta-jdev.vercel.app/",
     images: [
       {
         url: "/logo.png",
