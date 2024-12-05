@@ -15,10 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Junior Dev",
-  description: "Official website for Junior Dev!",
+  description: "Junior Dev Official Website",
   openGraph: {
     title: "Junior Dev",
-    description: "Official website for Junior Dev!",
+    description: "Junior Dev Official Website",
     url: "https://beta-jdev.vercel.app/",
     images: [
       {
