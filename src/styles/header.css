@@ -11,16 +11,16 @@
 }
 
 .logo{
-    margin-left: 13px;
     margin: 10px;
+    margin-left: 13px;
     height: 70px;
     width: 70px;
     transition: all 0.5s ease;
 }
 
 .logo:hover{
-    margin-left: 8px;
     margin: 0px;
+    margin-left: 8px;
     height: 80px;
     width: 80px;
 }
