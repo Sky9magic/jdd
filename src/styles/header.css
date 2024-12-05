@@ -19,6 +19,7 @@
 }
 
 .logo:hover{
+    margin-left: 8px;
     height: 80px;
     width: 80px;
 }
