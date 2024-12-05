@@ -7,12 +7,59 @@ export default function Contests() {
         <>
             <Header/>
             <div className = "main">
-                <h1 style = {{fontSize: "50px", margin: "35px"}}>Contests</h1>
-                <center style = {{fontSize: "30px", margin: "35px"}}>Lorem ipsum dolor sit amet</center>
-                <h2 style = {{fontSize: "50px", margin: "35px",border: "1px"}}>Upcoming Contests</h2>
-                <h3 style = {{fontSize: "50px", margin: "35px",border: "1px"}}>contest</h3>
-                <h2 style = {{fontSize: "50px", margin: "35px",border: "1px"}}>Past Contests</h2>
-                <h2 style = {{fontSize: "50px", margin: "35px",border: "1px"}}>contest</h2>
+                <div className = "title"><center style = {{fontSize: "50px", marginTop: "10px", marginBottom: "10px"}}>Contests</center></div>
+                <div className="lines"><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr></div>
+                <div className="cont">
+                    {/* <div className = "left">
+                        <h2 style = {{fontSize: "60px"}}>Upcoming Contests</h2>
+                        <div className = "upcoming">
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                        </div>
+                    </div> */}
+                    <div className="container">
+                        <div className="left-half">
+                            <center style = {{fontSize: "30px", margin: "25px"}}>
+                                Upcoming Contest(s)
+                            </center>
+                            <div className="left-box"></div>
+                        </div>
+                        <div className="vertical-line"></div>
+                        <div className="right-half">
+                            <center style = {{fontSize: "30px", margin: "25px"}}>
+                                Past Contest(s)
+                            </center>
+                            <div className="right-box"></div>
+                        </div>
+                    </div>
+                    {/* <div className="right">
+                        <h2 style = {{fontSize: "60px"}}>Past Contests</h2>
+                        <div className = "past">
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                            <h1> - Contest</h1>
+                        </div>
+                    </div> */}
+                </div>
             </div>
         </>
     );

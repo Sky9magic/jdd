@@ -1,8 +1,75 @@
 body{
     background-color: rgb(40, 40, 40);
     margin: 0;
-    height: 100px;
+    height: 100vh;
 }
+
 .main{
     color: rgb(255, 255, 255);
+    justify-content: left;
+}
+
+.title{
+    color: rgb(0, 255, 255);
+}
+
+/* .upcoming{
+    overflow-y: visible;
+    font-size: 50px;
+}
+
+.past{
+    overflow-y: visible;
+    font-size: 50px;
+}
+
+.left{
+    margin-left: 45px;
+    margin: 30px;
+}
+
+.right{
+    margin-right: 45px;
+    margin: 30px;
+} */
+
+/* Style for the vertical line */
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    height: 100vh;
+    width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.left-box, .right-box{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 253, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 150px;
+    margin: 25px;
+    border-radius: 20px;
+    justify-self: center;
+    border-color: rgb(172, 100, 0);
+    border-width: 3px;
+}
+
+.left-half, .right-half {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
 }

@@ -5,6 +5,7 @@ export default function Problems() {
     return(
         <>
             <Header/>
+            <hr></hr>
         </>
     );
 }

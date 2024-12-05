@@ -5,6 +5,7 @@ export default function Settings() {
     return(
         <>
             <Header/>
+            <hr></hr>
         </>
     );
 }
