@@ -47,7 +47,7 @@ export default function Contests() {
                         </div>
                         {/* <div className="vertical-line"></div> */}
                         <div className="right-half">
-                            <center style = {{fontSize: "30px", margin: "25px"}}>
+                            <center style = {{fontSize: "30px", margin: "30px"}}>
                                 Past Contest(s)
                             </center>
                             <div className="right-box">
