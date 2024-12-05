@@ -7,9 +7,9 @@ export default function Contests() {
     return(
         <>
             <Header/>
-            <br>
-            <br>
-            <br>
+            <br></br>
+            <br></br>
+            <br></br>
             <div className = "main">
                 <div className = "title"><center style = {{fontSize: "50px", marginTop: "10px", marginBottom: "10px"}}>Contests</center></div>
                 <div className="lines"><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr></div>
