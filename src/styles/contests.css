@@ -73,3 +73,9 @@ body{
     width: 50%;
     height: 100vh;
 }
+
+.list1, .list2{
+    color: black;
+    font-size: 25px;
+    justify-content: left;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../../components/header';
 import "../../styles/contests.css"
+import Link from "next/link";
 
 export default function Contests() {
     return(
@@ -32,14 +33,26 @@ export default function Contests() {
                             <center style = {{fontSize: "30px", margin: "25px"}}>
                                 Upcoming Contest(s)
                             </center>
-                            <div className="left-box"></div>
+                            <div className="left-box">
+                                <div className = "list1">
+                                    <h1>- contest</h1>
+                                    <h1>- contest</h1>
+                                    <h1>- contest</h1>
+                                </div>
+                            </div>
                         </div>
                         <div className="vertical-line"></div>
                         <div className="right-half">
                             <center style = {{fontSize: "30px", margin: "25px"}}>
                                 Past Contest(s)
                             </center>
-                            <div className="right-box"></div>
+                            <div className="right-box">
+                                <div className = "list2">
+                                    <h1><Link href = "https://codeforces.com/group/eScIVDG1u2/contest/560196">Junior Dev Loy Krathong Contest 2024</Link></h1>
+                                    <h1><Link href = "https://codeforces.com/group/eScIVDG1u2/contest/553124">Pre-POSN1 DAY2</Link></h1>
+                                    <h1><Link href = "https://codeforces.com/group/eScIVDG1u2/contest/553127">Pre-POSN1 DAY1</Link></h1>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     {/* <div className="right">
