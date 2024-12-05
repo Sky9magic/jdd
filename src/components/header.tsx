@@ -6,8 +6,8 @@ export default function Header() {
     return (
         <div className = "head">
             <div className = "webname">
-                <img className = "logo" src = "/logo.png"></img>
-                <div className = "main"><p style = {{margin: "15px", fontSize: "25px", color: "black"}}><Link href="/">Junior Dev Official Website</Link></p></div>
+                <Link href="/"><img className = "logo" src = "/logo.png"></img></Link>
+                <div className = "main"><p style = {{margin: "15px", fontSize: "25px", color: "black"}}><Link href="/"><b>Junior Dev Official Website</b></Link></p></div>
             </div>
             <div className = "headTextContent">
                 <div className = "headText">
