@@ -70,32 +70,28 @@ body{
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 100vh;
+    width: 200vh;
     padding: 0 20px;
 }
 
 .left-box, .right-box{
-    width: 80%;
+    overflow-y: scroll;
+    width: 90%;
     /*height: 80%;*/
-    height: auto;
-    background-color: rgb(15, 115, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    box-sizing: border-box;
+    height: 50%;
+    background-color: rgb(88, 157, 255);
+    padding: 5px;
     /*min-height: 150px;*/
     margin: 25px;
     border-radius: 20px;
     justify-self: center;
-    border-color: rgb(15, 175, 255);
+    border-color: rgb(0, 8, 118);
     border-width: 3px;
 }
 
 .left-half, .right-half {
     justify-content: center;
-    align-items: center;
     width: 50%;
     height: 100vh;
 }
@@ -104,8 +100,13 @@ body{
     color: black;
     font-size: 25px;
     justify-content: left;
+    margin: 20px;
+    font-size: 20px;
 }
 
+.list1 > p, .list2 > p{
+    margin: 10px;
+}
 
 .lines{
     color: white;

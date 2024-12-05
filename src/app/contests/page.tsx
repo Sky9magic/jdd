@@ -17,14 +17,56 @@ export default function Contests() {
                 <div className="cont">
                     <div className="container">
                         <div className="left-half">
-                            <center style = {{fontSize: "30px", margin: "25px"}}>
+                            <center style = {{fontSize: "30px", margin: "30px"}}>
                                 Upcoming Contest(s)
                             </center>
                             <div className="left-box">
                                 <div className = "list1">
-                                    <h1>- contest</h1>
-                                    <h1>- contest</h1>
-                                    <h1>- contest</h1>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
+                                    <p>- contest</p>
                                 </div>
                             </div>
                         </div>
@@ -35,9 +77,9 @@ export default function Contests() {
                             </center>
                             <div className="right-box">
                                 <div className = "list2">
-                                    <h1 style = {{margin: "15px"}}><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/560196">Junior Dev Loy Krathong Contest 2024</Link></h1>
-                                    <h1 style = {{margin: "15px"}}><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553124">Pre-POSN1 DAY2</Link></h1>
-                                    <h1 style = {{margin: "15px"}}><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553127">Pre-POSN1 DAY1</Link></h1>
+                                    <p><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/560196">Junior Dev Loy Krathong Contest 2024</Link></p>
+                                    <p><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553124">Pre-POSN1 DAY2 (2024)</Link></p>
+                                    <p><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553127">Pre-POSN1 DAY1 (2024)</Link></p>
                                 </div>
                             </div>
                         </div>
