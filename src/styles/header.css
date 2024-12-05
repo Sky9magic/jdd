@@ -1,5 +1,6 @@
 .head {
     position: fixed;
+    top: 0;
     background-color: rgb(208, 255, 253);
     border-bottom: 5px solid rgb(77, 106, 255);
     padding: 10px;
