@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: "https://beta-jdev.vercel.app/",
     images: [
       {
-        url: "../../public/logo.jpg",
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "Beta JD Logo",
