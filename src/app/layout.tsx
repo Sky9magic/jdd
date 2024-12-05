@@ -19,11 +19,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Beta JD Web",
     description: "Sigma god",
+    url: "https://beta-jdev.vercel.app/",
     images: [
       {
         url: "/logo.jpg",
         width: 1200,
         height: 630,
+        alt: "Beta JD Logo",
       },
     ],
   },
