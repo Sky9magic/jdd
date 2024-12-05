@@ -17,7 +17,15 @@ export const metadata: Metadata = {
   title: "Beta JD Web",
   description: "Sigma god",
   openGraph: {
-    images: "/logo.jpg",
+    title: "Beta JD Web",
+    description: "Sigma god",
+    images: [
+      {
+        url: "./logo.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 
