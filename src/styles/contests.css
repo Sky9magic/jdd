@@ -5,7 +5,7 @@ body{
 }
 
 .main{
-    margin: 13px;
+    margin: auto;
     size: 100%;
     color: white;
     font-size: 50px;
@@ -25,7 +25,8 @@ body{
     background-color: rgb(199, 251, 255);
     color: rgb(0, 0, 0);
     padding: 5px;
-    
+    left:auto;
+    right:auto;
 }
 .btn:hover{
     background-color: rgb(72, 111, 250);
