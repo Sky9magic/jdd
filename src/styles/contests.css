@@ -15,7 +15,17 @@ body{
 
 .title{
     color: rgb(0, 255, 255);
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
+
+.lines{
+    color: white;
+    width: 100%;
+    /* height: 100vh; */
+}
+
 .btn{
     justify-content: center;
     align-items: center;
@@ -49,7 +59,6 @@ body{
     margin: 30px;
 } */
 
-/* Style for the vertical line */
 .vertical-line {
     position: absolute;
     left: 50%;
@@ -95,4 +104,9 @@ body{
     color: black;
     font-size: 25px;
     justify-content: left;
+}
+
+
+.lines{
+    color: white;
 }

@@ -12,26 +12,9 @@ export default function Contests() {
             <br></br>
             <br></br>
             <div className = "main">
-                <div className = "title"><center style = {{fontSize: "50px", marginTop: "10px", marginBottom: "10px"}}>Contests</center></div>
-                <div className="lines"><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr></div>
+                <div className = "title"><center>Contests</center></div>
+                <div className = "lines"><hr></hr></div>
                 <div className="cont">
-                    {/* <div className = "left">
-                        <h2 style = {{fontSize: "60px"}}>Upcoming Contests</h2>
-                        <div className = "upcoming">
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                        </div>
-                    </div> */}
                     <div className="container">
                         <div className="left-half">
                             <center style = {{fontSize: "30px", margin: "25px"}}>
