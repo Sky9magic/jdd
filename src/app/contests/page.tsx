@@ -9,7 +9,7 @@ export default function Contests() {
             <Header/>
             <div className = "main">
                 <div className = "title"><center style = {{fontSize: "50px", marginTop: "10px", marginBottom: "10px"}}>Contests</center></div>
-                {/* <div className="lines"><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr></div> */}
+                <div className="lines"><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr></div>
                 <div className="cont">
                     {/* <div className = "left">
                         <h2 style = {{fontSize: "60px"}}>Upcoming Contests</h2>
@@ -41,7 +41,7 @@ export default function Contests() {
                                 </div>
                             </div>
                         </div>
-                        <div className="vertical-line"></div>
+                        {/* <div className="vertical-line"></div> */}
                         <div className="right-half">
                             <center style = {{fontSize: "30px", margin: "25px"}}>
                                 Past Contest(s)
