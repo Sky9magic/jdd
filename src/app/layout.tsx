@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Sigma god",
     images: [
       {
-        url: "./logo.jpg",
+        url: "/logo.jpg",
         width: 1200,
         height: 630,
       },
