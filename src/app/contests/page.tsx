@@ -6,9 +6,6 @@ export default function Contests() {
     return(
         <>
             <Header/>
-            <h1>
-                Contests
-            </h1>
             <div className = "main">
                 <h1 style = {{fontSize: "50px", margin: "35px"}}>Contests</h1>
                 <center style = {{fontSize: "30px", margin: "35px"}}>Lorem ipsum dolor sit amet</center>

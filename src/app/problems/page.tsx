@@ -5,9 +5,6 @@ export default function Problems() {
     return(
         <>
             <Header/>
-            <h1>
-                Problems
-            </h1>
         </>
     );
 }

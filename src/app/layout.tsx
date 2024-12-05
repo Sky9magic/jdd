@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Beta JD Web",
   description: "Sigma god",
+  openGraph: {
+    images: "/logo.jpg",
+  },
 };
 
 export default function RootLayout({
