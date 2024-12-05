@@ -14,18 +14,18 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Beta JD Web",
-  description: "Sigma god",
+  title: "Junior Dev",
+  description: "Official website for Junior Dev!",
   openGraph: {
-    title: "Beta JD Web",
-    description: "Sigma god",
+    title: "Junior Dev",
+    description: "Official website for Junior Dev!",
     url: "https://beta-jdev.vercel.app/",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Beta JD Logo",
+        alt: "Junior Dev",
       },
     ],
   },
