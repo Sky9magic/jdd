@@ -60,6 +60,10 @@ body{
     margin-right: 45px;
     margin: 30px;
 } */
+.mid{
+  left: auto;
+  right: auto;
+}
 
 .vertical-line {
     position: absolute;
