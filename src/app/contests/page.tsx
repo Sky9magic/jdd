@@ -7,10 +7,10 @@ export default function Contests() {
     return(
         <>
             <Header/>
-            <br>
-            <br>
-            <br>
-            <br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <div className = "main">
                 <div className = "title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
                 <div className = "lines"><hr></hr></div>
@@ -23,50 +23,6 @@ export default function Contests() {
                             <div className="left-box">
                                 <div className = "list1">
                                     <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
-                                    <p>- contest</p>
                                 </div>
                             </div>
                         </div>
@@ -77,9 +33,9 @@ export default function Contests() {
                             </center>
                             <div className="right-box">
                                 <div className = "list2">
-                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/560196"><h1>Junior Dev Loy Krathong Contest 2024</h1><br><p>16/Nov/2024 19:00 - 23:00</p></Link>
-                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553124"><h1>Pre-POSN1 DAY2 (2024)</h1><br><p>9/Oct/2024 19:00 - 10/Oct/2024 00:00</p></Link>
-                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553127"><h1>Pre-POSN1 DAY1 (2024)</h1><br><p>8/Oct/2024 19:00 - 9/Oct/2024 00:00</p></Link>
+                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/560196"><h1>Junior Dev Loy Krathong Contest 2024</h1> <br></br> <p>16/Nov/2024 19:00 - 23:00</p></Link>
+                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553124"><h1>Pre-POSN1 DAY2 (2024)</h1> <br></br> <p>9/Oct/2024 19:00 - 10/Oct/2024 00:00</p></Link>
+                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553127"><h1>Pre-POSN1 DAY1 (2024)</h1> <br></br> <p>8/Oct/2024 19:00 - 9/Oct/2024 00:00</p></Link>
                                 </div>
                             </div>
                         </div>
