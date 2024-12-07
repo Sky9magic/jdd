@@ -30,7 +30,17 @@ body {
     transition: all 0.5s ease;
     padding: 10px;
 }
-.btn:hover{
+.btn-black{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(199, 251, 255);
+    color: rgb(25, 25, 26);
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+.btn-black:hover{
     border-radius: 9px;
     background-color: hsl(184, 100%, 73%);
     color: hsl(229, 100%, 46%);
