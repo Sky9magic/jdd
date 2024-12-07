@@ -19,3 +19,45 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main{
+    margin: 13px;
+    size: 100%;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+.title{
+    font-size: 50px;
+    margin: 30px;
+    margin-top: 45px;
+    color: rgb(0, 255, 255);
+}
+
+.btn{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(199, 251, 255);
+    color: inherit;
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+.btn-black{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(199, 251, 255);
+    color: rgb(25, 25, 26);
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+.btn-black:hover{
+    border-radius: 9px;
+    background-color: hsl(184, 100%, 73%);
+    color: hsl(229, 100%, 46%);
+}
