@@ -5,10 +5,10 @@ export default function Problems() {
     return(
         <>
             <Header/>
-            <br></br>
-            <br></br>
-            <br></br>
-            <hr></hr>
+            <br>
+            <br>
+            <br>
+            <br>
         </>
     );
 }
