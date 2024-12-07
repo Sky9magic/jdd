@@ -33,9 +33,9 @@ export default function Contests() {
                             </center>
                             <div className="right-box">
                                 <div className = "list2">
-                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/560196"><h1>Junior Dev Loy Krathong Contest 2024</h1> <br></br> <p>16/Nov/2024 19:00 - 23:00</p></Link>
-                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553124"><h1>Pre-POSN1 DAY2 (2024)</h1> <br></br> <p>9/Oct/2024 19:00 - 10/Oct/2024 00:00</p></Link>
-                                    <Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553127"><h1>Pre-POSN1 DAY1 (2024)</h1> <br></br> <p>8/Oct/2024 19:00 - 9/Oct/2024 00:00</p></Link>
+                                    <p><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/560196"><b>Junior Dev Loy Krathong Contest 2024</b> <br></br> 16/Nov/2024 19:00 - 23:00</Link></p>
+                                    <p><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553124"><b>Pre-POSN1 DAY2 (2024)</b> <br></br> 9/Oct/2024 19:00 - 10/Oct/2024 00:00</Link></p>
+                                    <p><Link className="btn" href = "https://codeforces.com/group/eScIVDG1u2/contest/553127"><b>Pre-POSN1 DAY1 (2024)</b> <br></br> 8/Oct/2024 19:00 - 9/Oct/2024 00:00</Link></p>
                                 </div>
                             </div>
                         </div>
