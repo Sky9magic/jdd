@@ -61,3 +61,7 @@ body {
     background-color: hsl(184, 100%, 73%);
     color: hsl(229, 100%, 46%);
 }
+.mid{
+  left: auto;
+  right: auto;
+}
