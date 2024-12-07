@@ -7,10 +7,10 @@ export default function Contests() {
     return(
         <>
             <Header/>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br>
+            <br>
+            <br>
+            <br>
             <div className = "main">
                 <div className = "title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
                 <div className = "lines"><hr></hr></div>
