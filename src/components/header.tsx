@@ -7,6 +7,7 @@ export default function Header() {
         <div className = "head">
             <div className = "webname">
                 <Link href="/"><img className = "logo" src = "/logo.png" alt="Junior Dev"></img></Link>
+                <Link href="/"><h1 style = {{marginLeft: "20px"}}>Junior Dev</h1></Link>
             </div>
             <div className="headTextContent">
                 <div className="headText">

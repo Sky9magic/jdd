@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(40, 40, 40);
+    margin: 0;
+    height: 100vh;
+}
+
+.main{
+    margin: 5px;
+    size: 100%;
+    color: white;
+    font-size: 50px;    
+    align-items: center;
+    justify-items: center;
+}
+
+.box{
+    width: 120vh;
+    height: 55vh;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: white;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-items: center;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.problem{
+    width: 115vh;
+    height: 9.5vh;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: white;
+    margin-bottom: 50px;
+    margin: 1.7vh;
+}
+
+.list{
+    margin: 5px;
+    size: 100%;
+    color: white;
+    font-size: 30px;    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.no-problems {
+    display: flex;
+    height: 100vh;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
