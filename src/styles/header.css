@@ -56,8 +56,6 @@
 }
 
 .webname{
-    display: flex;
-    align-items: center;
-    width: 90%;
     font-size: 30px;
+    margin-left: 100px;
 }
