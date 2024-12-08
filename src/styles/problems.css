@@ -33,10 +33,17 @@ body {
     width: 115vh;
     height: 9.5vh;
     border-width: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: white;
     margin-bottom: 50px;
+    color:white;
     margin: 1.7vh;
+}
+.problem:hover{
+    border-radius: 15px;
+    border-color: #00ff76;
+    background-color:#2090ff;
+    color: black;
 }
 
 .list{
