@@ -45,18 +45,20 @@ body{
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 50px;
-    margin: 5px;
+    display: flex;
+    height: 100px;
+    border: solid;
+    border-color: blue;
     border-radius: 5px;
-    background-color: rgb(199, 251, 255);
-    color: inherit;
+    color: #dbdbdb;
     transition: all 0.5s ease;
     padding: 10px;
 }
 .contest:hover{
     border-radius: 9px;
-    background-color: hsl(184, 100%, 73%);
-    color: hsl(229, 100%, 46%);
+    background-color: #2090ff;
+    color: black;
+    border-color: rgb(0,255,118);
 }
 /* .upcoming{
     overflow-y: visible;
@@ -103,7 +105,7 @@ body{
     width: 90%;
     /*height: 80%;*/
     height: 45%;
-    background-color: rgb(88, 157, 255);
+    background-color: black;
     padding: 5px;
     /*min-height: 150px;*/
     margin: 25px;
