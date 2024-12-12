@@ -1,16 +1,16 @@
 import React from "react";
 import Link from "next/link";
-import "../styles/header.css"
+import "../styles/header_styles2.css"
 
 export default function Header() {
     return (
         <header className="head">
             <nav className="nav-head">
                 <Link href="/"><a>Home</a></Link>
-                <Link href="/problems"><a>Problem</a></Link>
-                <Link href="/contests"><a>Contest</a></Link>
-                <Link href="/settings"><a>Setting</a></Link>
-                <Link href="/settings"><a>Updated3</a></Link>
+                <p><Link href="/problems">Problem</Link></p>
+                <p><Link href="/contests"><a>Contest</Link></p>
+                <p><Link href="/settings"><a>Setting</Link></p>
+                <p><Link href="/settings"><a>Updated4</Link></p>
             </nav>
         </header>
     );
