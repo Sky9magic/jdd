@@ -5,12 +5,13 @@ import "../styles/header_styles2.css";
 export default function Header() {
     return (
         <header className="head">
+            <div class="background"></div>
             <nav className="nav-head">
                 <Link href="/">Home</Link>
                 <Link href="/problems">Problem</Link>
                 <Link href="/contests">Contest</Link>
                 <Link href="/settings">Setting</Link>
-                <Link href="/settings">Updated2</Link>
+                <Link href="/settings">Updated69</Link>
             </nav>
         </header>
     );
