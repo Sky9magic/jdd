@@ -4,16 +4,16 @@ import "../styles/header_styles2.css";
 
 export default function Header() {
     return (
-        <div className="background">
-            <header className="head">
-                <nav className="nav-head">
-                    <Link href="/">Home</Link>
-                    <Link href="/problems">Problem</Link>
-                    <Link href="/contests">Contest</Link>
-                    <Link href="/settings">Setting</Link>
-                </nav>
-            </header>
-        </div>
+        <div className="background"></div>
+        <header className="head">
+            <nav className="nav-head">
+                <Link href="/">Home</Link>
+                <Link href="/problems">Problem</Link>
+                <Link href="/contests">Contest</Link>
+                <Link href="/settings">Setting</Link>
+                <Link href="/settings">Fixed</Link>
+            </nav>
+        </header>
     );
 }
 
