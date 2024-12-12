@@ -1,9 +1,10 @@
 .background {
     margin: 0;
-    font-family: Arial, sans-serif;
     color: #c6d8de;
-    background: linear-gradient(to bottom, #15799b 0px, #10161f 37%, #10161f 100%);
+    background: linear-gradient(to bottom, #15799b 0%, #10161f 37%, #10161f 100%);
     text-align: center;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .head {
