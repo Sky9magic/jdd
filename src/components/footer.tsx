@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 import "../styles/footer_styles.css";
 
-export default function Header() {
+export default function Footer() {
     return (
-        <footer class="footer">
+        <footer className="footer">
             <p>© 2024 Junior Dev. All rights reserved.</p>
         </footer>  
     );
