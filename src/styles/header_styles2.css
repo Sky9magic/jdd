@@ -1,11 +1,14 @@
 .background {
-    margin: 0;
-    color: #c6d8de;
-    background: linear-gradient(to bottom, #15799b 0%, #10161f 37%, #10161f 100%);
-    text-align: center;
-    height: 100vh;
-    background-attachment: fixed;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #15799b 0px, #10161f 37%, #10161f 100%);
+  text-align: center;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
+
 
 .head {
     display: flex;
