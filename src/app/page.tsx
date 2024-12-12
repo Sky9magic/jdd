@@ -5,7 +5,7 @@ import "../styles/home.css"
 
 export default function Home() {
     return (
-        <Header />
+        <Header/>
         <div className = "main"></div>
     );
 }
