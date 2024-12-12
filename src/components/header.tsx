@@ -6,11 +6,12 @@ export default function Header() {
     return (
         <header className="head">
             <nav className="nav-head">
+                <div className="background"></div>
                 <Link href="/">Home</Link>
                 <Link href="/problems">Problem</Link>
                 <Link href="/contests">Contest</Link>
                 <Link href="/settings">Setting</Link>
-                <Link href="/settings">Updated69</Link>
+                <Link href="/settings">Updated</Link>
             </nav>
         </header>
     );
