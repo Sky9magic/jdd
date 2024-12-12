@@ -78,7 +78,6 @@ export default function Problems() {
             <br></br>
             <br></br>
             <hr></hr>
-            <Footer />
         </>
     );
 }
