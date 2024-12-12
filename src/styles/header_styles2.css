@@ -14,11 +14,11 @@ body {
     font-size: 17px;
 }
 
-.nav-head p {
+.nav-head span {
     text-decoration: none;
     color: #c6d8de;
 }
 
-.nav-head p:hover {
+.nav-head span:hover {
     color: #15799b;
 }
