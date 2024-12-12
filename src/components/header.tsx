@@ -4,20 +4,19 @@ import "../styles/header_styles2.css";
 
 export default function Header() {
     return (
-        <header className="head">
-            <nav className="nav-head">
-                <div className="background"></div>
-                <Link href="/">Home</Link>
-                <Link href="/problems">Problem</Link>
-                <Link href="/contests">Contest</Link>
-                <Link href="/settings">Setting</Link>
-                <Link href="/settings">Updated</Link>
-            </nav>
-        </header>
+        <div className="background">
+            <header className="head">
+                <nav className="nav-head">
+                    <Link href="/">Home</Link>
+                    <Link href="/problems">Problem</Link>
+                    <Link href="/contests">Contest</Link>
+                    <Link href="/settings">Setting</Link>
+                    <Link href="/settings">Updated</Link>
+                </nav>
+            </header>
+        </div>
     );
 }
-
-
 
 // import React from "react";
 // import Link from "next/link";
