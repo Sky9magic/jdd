@@ -5,6 +5,14 @@ import "../styles/header_styles2.css"
 export default function Header() {
     return (
         <div className = "head">
+            <nav className="nav-head">
+                <Link href="/"><a>Home</a></Link>
+                <Link href="/problems"><a>Problem</a></Link>
+                <Link href="/contests"><a>Contest</a></Link>
+                <Link href="/settings"><a>Setting</a></Link>
+            </nav>
+        </div>
+        <div className = "head">
             <div className = "webname">
                 <Link href="/"><img className = "logo" src = "/logo.png" alt="Junior Dev"></img></Link>
                 <Link href="/"><h1 style={{color:"black",marginLeft:"10px"}}>Junior Dev</h1></Link>
@@ -15,10 +23,9 @@ export default function Header() {
                     <p><Link href="/problems">Problems</Link></p>
                     <p><Link href="/contests">Contests</Link></p>
                     <p><Link href="/settings">Settings</Link></p>
-                    <p><Link href="/">Help2</Link></p>
+                    <p><Link href="/">Help3</Link></p>
                 </div>
             </div>
-            <hr></hr>
         </div>
     );
 }
