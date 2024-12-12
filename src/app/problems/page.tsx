@@ -32,7 +32,7 @@ export default function Problems() {
 
     return (
         <>
-            <Header />
+            <Header/>
             <br/>
             <br/>
             <br/>
