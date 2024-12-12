@@ -4,17 +4,15 @@ import "../styles/header_styles2.css";
 
 export default function Header() {
     return (
-        <body>
-            <header className="head">
-                <nav className="nav-head">
-                    <Link href="/">Home</Link>
-                    <Link href="/problems">Problem</Link>
-                    <Link href="/contests">Contest</Link>
-                    <Link href="/settings">Setting</Link>
-                    <Link href="/settings">Updated</Link>
-                </nav>
-            </header>
-        </body>
+        <header className="head">
+            <nav className="nav-head">
+                <Link href="/">Home</Link>
+                <Link href="/problems">Problem</Link>
+                <Link href="/contests">Contest</Link>
+                <Link href="/settings">Setting</Link>
+                <Link href="/settings">Updated2</Link>
+            </nav>
+        </header>
     );
 }
 
