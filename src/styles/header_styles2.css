@@ -15,6 +15,7 @@
     gap: 50px;
     padding: 25px;
     font-size: 17px;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-head a {
@@ -28,5 +29,6 @@
 }
 
 .nav-head a:hover {
-    color: #15799b;
+  color: #00b0ff;
+  transform: scale(1.1);
 }
