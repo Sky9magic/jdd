@@ -14,12 +14,12 @@ body {
     font-size: 17px;
 }
 
-.nav-head span {
+.nav-head a {
     text-decoration: none;
     color: #c6d8de;
     margin-right: 20px;
 }
 
-.nav-head span:hover {
+.nav-head a:hover {
     color: #15799b;
 }
