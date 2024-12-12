@@ -102,7 +102,6 @@ export default function Contests() {
                     </div> */}
                 </div>
             </div>
-            <Footer />
         </>
     );
 }
