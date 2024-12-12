@@ -18,3 +18,7 @@ body {
     text-decoration: none;
     color: #c6d8de;
 }
+
+.nav-head a:hover {
+    color: #15799b;
+}
