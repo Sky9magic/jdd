@@ -17,6 +17,7 @@ body {
 .nav-head span {
     text-decoration: none;
     color: #c6d8de;
+    margin-right: 20px;
 }
 
 .nav-head span:hover {
