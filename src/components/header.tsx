@@ -11,7 +11,7 @@ export default function Header() {
                     <Link href="/problems">Problem</Link>
                     <Link href="/contests">Contest</Link>
                     <Link href="/settings">Setting</Link>
-                    <Link href="/settings">Updated</Link>
+                    <Link href="/settings">Updated54646</Link>
                 </nav>
             </header>
         </div>
