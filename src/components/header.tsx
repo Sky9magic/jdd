@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import "../styles/header_styles2.css";
+import "../styles/header.css"
 
 export default function Header() {
     return (
@@ -10,7 +10,7 @@ export default function Header() {
                 <Link href="/problems"><a>Problem</a></Link>
                 <Link href="/contests"><a>Contest</a></Link>
                 <Link href="/settings"><a>Setting</a></Link>
-                <Link href="/settings"><a>Updated2</a></Link>
+                <Link href="/settings"><a>Updated3</a></Link>
             </nav>
         </header>
     );
