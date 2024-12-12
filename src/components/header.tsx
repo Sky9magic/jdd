@@ -7,10 +7,10 @@ export default function Header() {
         <body>
             <header className="head">
                 <nav className="nav-head">
-                    <Link href="/"><a>Home</a></Link>
-                    <Link href="/problems"><a>Problem</a></Link>
-                    <Link href="/contests"><a>Contest</a></Link>
-                    <Link href="/settings"><a>Setting</a></Link>
+                    <a><Link href="/">Home</Link></a>
+                    <a><Link href="/problems">Problem</Link></a>
+                    <a><Link href="/contests">Contest</Link></a>
+                    <a><Link href="/settings">Setting</Link></a>
                 </nav>
             </header>
         </body>
