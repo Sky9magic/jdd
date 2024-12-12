@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className="head">
             <nav className="nav-head">
-                <p><Link href="/">Home</Link></p><p><Link href="/problems">Problem</Link></p><p><Link href="/contests">Contest</Link></p><p><Link href="/settings">Setting</Link></p><p><Link href="/settings">Updated6</Link></p>
+                <p><Link href="/">Home</Link></p><p><Link href="/problems">Problem</Link></p><p><Link href="/contests">Contest</Link></p><p><Link href="/settings">Setting</Link></p><p><Link href="/settings">Updated7</Link></p>
             </nav>
         </header>
     );
