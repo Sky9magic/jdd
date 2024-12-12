@@ -1,23 +1,42 @@
 import React from "react";
 import Link from "next/link";
-import "../styles/header.css"
+import "../styles/header_styles2.css"
 
 export default function Header() {
     return (
-        <div className = "head">
-            <div className = "webname">
-                <Link href="/"><img className = "logo" src = "/logo.png" alt="Junior Dev"></img></Link>
-                <Link href="/"><h1 style={{color:"black",marginLeft:"10px"}}>Junior Dev</h1></Link>
-            </div>
-            <div className="headTextContent">
-                <div className="headText">
-                    <p><Link href="/">Home</Link></p>
-                    <p><Link href="/problems">Problems</Link></p>
-                    <p><Link href="/contests">Contests</Link></p>
-                    <p><Link href="/settings">Settings</Link></p>
-                </div>
-            </div>
-            <hr></hr>
-        </div>
+        <body>
+            <header className="head">
+                <nav className="nav-head">
+                    <a href="/">Home</a>
+                    <a href="/problems">Problem</a>
+                    <a href="/contests">Contest</a>
+                    <a href="/settings">Setting</a>
+                </nav>
+            </header>
+        </body>
     );
 }
+
+// import React from "react";
+// import Link from "next/link";
+// import "../styles/header.css"
+
+// export default function Header() {
+//     return (
+//         <div className = "head">
+//             <div className = "webname">
+//                 <Link href="/"><img className = "logo" src = "/logo.png" alt="Junior Dev"></img></Link>
+//                 <Link href="/"><h1 style={{color:"black",marginLeft:"10px"}}>Junior Dev</h1></Link>
+//             </div>
+//             <div className="headTextContent">
+//                 <div className="headText">
+//                     <p><Link href="/">Home</Link></p>
+//                     <p><Link href="/problems">Problems</Link></p>
+//                     <p><Link href="/contests">Contests</Link></p>
+//                     <p><Link href="/settings">Settings</Link></p>
+//                 </div>
+//             </div>
+//             <hr></hr>
+//         </div>
+//     );
+// }
