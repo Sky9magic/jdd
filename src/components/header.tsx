@@ -11,7 +11,7 @@ export default function Header() {
             </div>
             <div className="headTextContent">
                 <div className="headText">
-                    <p><Link href="/">Home</Link></p>
+                    <p><Link href="/home">Home</Link></p>
                     <p><Link href="/problems">Problems</Link></p>
                     <p><Link href="/contests">Contests</Link></p>
                     <p><Link href="/settings">Settings</Link></p>
