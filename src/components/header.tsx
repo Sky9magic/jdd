@@ -1,16 +1,21 @@
 import React from "react";
 import Link from "next/link";
-import "../styles/header_styles2.css"
+import "../styles/header_styles2.css";
 
 export default function Header() {
     return (
         <header className="head">
             <nav className="nav-head">
-                <p><Link href="/">Home</Link></p><p><Link href="/problems">Problem</Link></p><p><Link href="/contests">Contest</Link></p><p><Link href="/settings">Setting</Link></p><p><Link href="/settings">Updated7</Link></p>
+                <span><Link href="/">Home</Link></span>
+                <span><Link href="/problems">Problem</Link></span>
+                <span><Link href="/contests">Contest</Link></span>
+                <span><Link href="/settings">Setting</Link></span>
+                <span><Link href="/settings">Updated</Link></span>
             </nav>
         </header>
     );
 }
+
 
 
 // import React from "react";
