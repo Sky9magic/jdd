@@ -64,14 +64,13 @@ body{
     border: solid;
     border-color: blue;
     border-radius: 5px;
-    color: #dbdbdb;
-    transition: all 0.5s ease;
+    color: white;
+    transition: all .5s cubic-bezier(0, 0.96, 0.42, 0.97);
     padding: 10px;
 }
 .contest:hover{
     border-radius: 9px;
-    background-color: #2090ff;
-    color: black;
+    color: #c3c3c3;
     border-color: rgb(0,255,118);
 }
 /* .upcoming{
