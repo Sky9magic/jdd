@@ -23,6 +23,10 @@
     margin-right: 20px;
 }
 
+.nav-head a:last-child {
+    margin-right: 0;
+}
+
 .nav-head a:hover {
     color: #15799b;
 }
