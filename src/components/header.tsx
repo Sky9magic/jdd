@@ -1,15 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import "../styles/header_styles2.css"
+import "../styles/header.css"
 
 export default function Header() {
     return (
-        <div className = "head">
-                <Link href="/"><a>Home</a></Link>
-                <Link href="/problems"><a>Problem</a></Link>
-                <Link href="/contests"><a>Contest</a></Link>
-                <Link href="/settings"><a>Setting</a></Link>
-        </div>
         <div className = "head">
             <div className = "webname">
                 <Link href="/"><img className = "logo" src = "/logo.png" alt="Junior Dev"></img></Link>
@@ -19,11 +13,11 @@ export default function Header() {
                 <div className="headText">
                     <p><Link href="/">Home</Link></p>
                     <p><Link href="/problems">Problems</Link></p>
-                    <p><Link href="/contests">Contests</Link></p>
+                    <p><Link href="/contests">Competetions</Link></p>
                     <p><Link href="/settings">Settings</Link></p>
-                    <p><Link href="/">Help3</Link></p>
                 </div>
             </div>
+            <hr></hr>
         </div>
     );
 }
