@@ -17,7 +17,6 @@ export default function Home() {
                 <p><Link className="btn-black" href="/contests">View past competetions</Link></p>
                 <p>opal_Inwza007x was here</p>
             </div>
-            <Footer />
         </>
     );
 }
