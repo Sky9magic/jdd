@@ -17,9 +17,7 @@ export default function Home() {
             </div>
             <div className="button-container">
                 <button className="custom-button">
-                    <Link href="/contests">
-                        View all competitions
-                    </Link>
+                    <Link href="/contests">View all competitions</Link>
                 </button>
             </div>
             <br/>
