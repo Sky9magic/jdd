@@ -4,7 +4,7 @@ import "../styles/footer_styles.css";
 export default function Footer() {
     return (
         <footer className="Footer">
-            <center>© 2024 Junior Dev. All rights reserved.</center>
+            <center className="text-footer">© 2024 Junior Dev. All rights reserved.</center>
         </footer>  
     );
 }
