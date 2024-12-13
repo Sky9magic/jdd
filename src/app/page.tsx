@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import "../styles/home_styles.css"
@@ -15,7 +16,11 @@ export default function Home() {
                 <p>Junior Dev is Pretty SUS.<br />AMOGUS69 i dont know what to type xD.</p>
             </div>
             <div className="button-container">
-                <button className="custom-button">View all competitions</button>
+                <button className="custom-button">
+                    <Link href="/contests">
+                        View all competitions
+                    </Link>
+                </button>
             </div>
             <br />
             <Footer />
