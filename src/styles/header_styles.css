@@ -1,0 +1,34 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    background: linear-gradient(to bottom, #15799b 0%, #10161f 37%, #10161f 100%);
+    z-index: -1;
+}
+
+
+.head {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+    font-size: 17px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-head a {
+    text-decoration: none;
+    color: #c6d8de;
+    margin-right: 20px;
+}
+
+.nav-head a:last-child {
+    margin-right: 0;
+}
+
+.nav-head a:hover {
+  color: #00b0ff;
+  transform: scale(1.1);
+}

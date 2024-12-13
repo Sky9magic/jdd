@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(40, 40, 40);
+    background: rgb(0,0,0);
     margin: 0;
     height: 100%;
 }
@@ -26,6 +26,20 @@ body{
     /* height: 100vh; */
 }
 
+.platform {
+    max-width: 100%;
+    height: 70px;
+    margin: 15px;
+}
+.flex {
+    display:flex;
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+.flex-col{
+    flex-direction: column;
+}
 .btn{
     justify-content: center;
     align-items: center;
@@ -50,14 +64,13 @@ body{
     border: solid;
     border-color: blue;
     border-radius: 5px;
-    color: #dbdbdb;
-    transition: all 0.5s ease;
+    color: white;
+    transition: all .5s cubic-bezier(0, 0.96, 0.42, 0.97);
     padding: 10px;
 }
 .contest:hover{
     border-radius: 9px;
-    background-color: #2090ff;
-    color: black;
+    color: #c3c3c3;
     border-color: rgb(0,255,118);
 }
 /* .upcoming{
@@ -114,6 +127,9 @@ body{
     border-color: rgb(0, 8, 118);
     border-width: 3px;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 
 .left-half, .right-half {
     justify-content: center;
@@ -136,4 +152,3 @@ body{
 .lines{
     color: white;
 }
-

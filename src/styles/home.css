@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(40, 40, 40);
+    background: rgb(0,0,0);
     margin: 0;
     height: 100%;
 }
@@ -34,14 +34,17 @@ body {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    border: solid;
+    border-color: red;
     border-radius: 5px;
-    background-color: rgb(199, 251, 255);
-    color: rgb(25, 25, 26);
+    background-color: black;
+    color: #dbdbdb;
     transition: all 0.5s ease;
     padding: 10px;
 }
 .btn-black:hover{
     border-radius: 9px;
-    background-color: hsl(184, 100%, 73%);
-    color: hsl(229, 100%, 46%);
+    border-color: #00ff76;
+    background-color: #2090ff;
+    color: black;
 }

@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(40, 40, 40);
+    background: rgb(0,0,0);
     margin: 0;
     height: 100vh;
-}
+} 
 
 .main{
     margin: 5px;
@@ -18,7 +18,8 @@ body {
     height: 55vh;
     border-width: 5px;
     border-radius: 15px;
-    border-color: white;
+    border-color: blue;
+    background-color: black;
     margin-bottom: 50px;
     align-items: center;
     justify-items: center;
@@ -30,13 +31,22 @@ body {
 }
 
 .problem{
-    width: 115vh;
+    width: 113.5vh;
+    display: flex;
     height: 9.5vh;
     border-width: 5px;
-    border-radius: 15px;
-    border-color: white;
+    border-radius: 10px;
+    border-color: blue;
     margin-bottom: 50px;
+    color:white;
+    transition: all 0.5s ease;
     margin: 1.7vh;
+}
+.problem:hover{
+    border-radius: 15px;
+    border-color: #00ff76;
+    background-color:#2090ff;
+    color: black;
 }
 
 .list{

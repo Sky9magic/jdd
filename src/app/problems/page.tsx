@@ -32,7 +32,7 @@ export default function Problems() {
 
     return (
         <>
-            <Header />
+            <Header/>
             <br/>
             <br/>
             <br/>
@@ -61,9 +61,11 @@ export default function Problems() {
                     <div className="list">
                         {filteredProblems.length > 0 ? (
                             filteredProblems.map((problem, index) => (
-                                <div key={index} className="problem" style = {{color: "white", alignContent: "center"}}>
-                                    {problem}
-                                </div>
+                                    <div key={index} style = {{alignContent: "center"}}>
+                                        <a className="problem" href="#">
+                                            {problem}
+                                        </a>
+                                    </div>
                             ))
                         ) : (
                             <div className="no-problems">No problems found</div>
