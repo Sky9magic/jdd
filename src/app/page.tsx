@@ -7,7 +7,7 @@ import "../styles/home_styles.css"
 export default function Home() {
     return (
         <>
-            <Header />
+            <Header/>
             <div className="hero">
                 <div className="logo">
                     <img src = "https://beta-jdev.vercel.app/logo.png" alt="logo-JDev" />
@@ -22,8 +22,8 @@ export default function Home() {
                     </Link>
                 </button>
             </div>
-            <br />
-            <Footer />
+            <br/>
+            <Footer/>
         </>
     );
 }
