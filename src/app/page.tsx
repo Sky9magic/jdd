@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import "../styles/home.css"
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
                 <p style={{color:"black", fontSize:"16px"}}>opal_Inwza007x was here</p>
                 <p><Link className="btn-black" href="/contests">View past competetions</Link></p>
             </div>
+            <Footer />
         </>
     );
 }
