@@ -6,21 +6,6 @@ import "../styles/home.css"
 export default function Home() {
     return (
         <>
-            <Header />
-            <div className="main"></div>
-            <p>Go to <Link className="btn-black" href="/contests">contests</Link></p>
-        </>
-    );
-}
-
-/* import React from "react";
-import Link from "next/link";
-import Header from "../components/header";
-import "../styles/home.css"
-
-export default function Home() {
-    return (
-        <>
             <Header/>
             <br></br>
             <br></br>
@@ -34,4 +19,4 @@ export default function Home() {
             <hr></hr>
         </>
     );
-} */
+}
