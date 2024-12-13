@@ -1,0 +1,56 @@
+.hero {
+    margin-top: 33px;
+    color: #c6d8de;
+    text-align: center;
+}
+
+.logo img {
+    width: clamp(200px, 20%, 400px);
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_name {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: #4A5364;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.custom-button:hover {
+    background-color: #5B6478;
+    transform: scale(1.05);
+}
