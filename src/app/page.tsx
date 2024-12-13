@@ -13,7 +13,7 @@ export default function Home() {
     );
 }
 
-{/* import React from "react";
+/* import React from "react";
 import Link from "next/link";
 import Header from "../components/header";
 import "../styles/home.css"
@@ -34,4 +34,4 @@ export default function Home() {
             <hr></hr>
         </>
     );
-} */}
+} */
