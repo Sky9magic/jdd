@@ -1,11 +1,11 @@
-.footer {
+.Footer {
     color: #FFFFFF;
     text-align: center;
     padding: 20px 10px;
     position: relative;
 }
 
-.footer::before {
+.Footer::before {
     content: "";
     position: absolute;
     top: 0;
@@ -16,7 +16,7 @@
     pointer-events: none;
 }
 
-.footer p {
+.Footer p {
     margin: 5px 0;
     text-align: left;
     padding-left: 20%;

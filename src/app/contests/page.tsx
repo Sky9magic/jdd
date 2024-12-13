@@ -7,10 +7,6 @@ export default function Contests() {
     return(
         <>
             <Header/>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
             <div className = "main">
                 <div className = "title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
                 <div className = "lines"><hr></hr></div>
@@ -83,23 +79,6 @@ export default function Contests() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="right">
-                        <h2 style = {{fontSize: "60px"}}>Past Contests</h2>
-                        <div className = "past">
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                            <h1> - Contest</h1>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </>

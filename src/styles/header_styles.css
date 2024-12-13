@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 200vh;
-    background: linear-gradient(to bottom, #15799b 0%, #10161f 37%, #10161f 100%);
+    background: linear-gradient(to bottom, #1e93a5 0%, #10161f 37%, #10161f 100%);
     z-index: -1;
 }
 
@@ -22,6 +22,7 @@
     text-decoration: none;
     color: #c6d8de;
     margin-right: 20px;
+    display: flex = 1;
 }
 
 .nav-head a:last-child {
