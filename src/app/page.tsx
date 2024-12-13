@@ -5,8 +5,10 @@ import "../styles/home.css"
 
 export default function Home() {
     return (
-        <Header/>
-        <div className="main"></div>
+        <>
+            <Header />
+            <div className="main"></div>
+        </>
     );
 }
 
