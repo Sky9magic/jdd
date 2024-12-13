@@ -6,6 +6,6 @@ import "../styles/home.css"
 export default function Home() {
     return (
         <Header/>
-        <div className = "main"></div>
+        <div className="main"></div>
     );
 }
