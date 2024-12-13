@@ -8,6 +8,7 @@ export default function Home() {
         <>
             <Header />
             <div className="main"></div>
+            <p>Go to <Link className="btn-black" href="/contests">contests</Link></p>
         </>
     );
 }
