@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Header from "../../components/header";
 import "../../styles/problems.css";
+import Footer from "../../components/footer";
 
 export default function Problems() {
     const problemsList = [
@@ -78,6 +79,7 @@ export default function Problems() {
             <br></br>
             <br></br>
             <hr></hr>
+            <Footer />
         </>
     );
 }
