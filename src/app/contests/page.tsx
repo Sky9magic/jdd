@@ -19,11 +19,12 @@ export default function Contests() {
                             </center>
                             <div className="left-box">
                                 <div className = "list1">
-                                    <a className="contest" href = "#" target="_blank">
+                                    <a className="contest" href = "https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank">
                                         <div className="flex" style={{alignItems:"center"}}>
                                             <div style={{textAlign:'center'}} className="flex flex-1 flex-col">
-                                                <b>(insert contest here)</b>
-                                                16/Nov/2024 19:00 - 23:00
+                                                <b>Junior Dev New Year Contest 2025</b>
+                                                30/Nov/2024 18:00 - 1/Jan/2025 00:00
+                                                Registration Begins at 30/Nov/2024 12:00
                                             </div>
                                             <div>
                                                 <img className="platform" src="/codeforces.webp" alt="Codeforces"></img>
