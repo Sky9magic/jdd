@@ -16,7 +16,7 @@
     pointer-events: none;
 }
 
-.Footer p {
+.Footer .text-footer {
     margin: 5px 0;
     text-align: left;
     padding-left: 20%;
