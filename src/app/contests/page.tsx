@@ -37,7 +37,7 @@ export default function Contests() {
                         {/* <div className="vertical-line"></div> */}
                         <div className="right-half">
                             <center style = {{fontSize: "30px", margin: "30px"}}>
-                                Past Contest(s)
+                                Past Contests
                             </center>
                             <div className="right-box">
                                 <div className = "list2">
