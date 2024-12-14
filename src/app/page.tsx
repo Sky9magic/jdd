@@ -7,23 +7,23 @@ import "../styles/home_styles.css"
 export default function Home() {
     return (
         <>
-            <Header/>
+            <Header />
             <div className="hero">
                 <div className="logo">
                     <img src = "https://beta-jdev.vercel.app/logo.png" alt="logo-JDev" />
                 </div>
-                <h1 className="logo_name typing">Junior Dev</h1>
-                <p>opal_Inwza007x was here.<br />That animation did not bug, it is a feature.</p>
+                <div className="text-reveal-container">
+                    <h1 className="logo_name typing">Junior Dev</h1>
+                    <p>opal_Inwza007x was here.<br />That animation did not bug, it is a feature 😎.</p>
+                </div>
             </div>
-            <div className="button-container">
-                <button className="custom-button">
-                    <Link href="/contests">
-                        View all competitions
-                    </Link>
-                </button>
+            <div className="aurora-container">
+                <Link href="/contests">
+                    <div className="aurora-text">View all competitions</div>
+                </Link>
             </div>
-            <br/>
-            <Footer/>
+            <br />
+            <Footer />
         </>
     );
 }
