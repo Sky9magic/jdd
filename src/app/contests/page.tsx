@@ -23,7 +23,7 @@ export default function Contests() {
                                         <div className="flex" style={{alignItems:"center"}}>
                                             <div style={{textAlign:'center'}} className="flex flex-1 flex-col">
                                                 <b>Junior Dev New Year Contest 2025</b>
-                                                30/Nov/2024 18:00 - 1/Jan/2025 00:00
+                                                30/Nov/2024 18:00 - 1/Jan/2025 00:00 <br></br>
                                                 Registration Begins at 30/Nov/2024 12:00
                                             </div>
                                             <div>
