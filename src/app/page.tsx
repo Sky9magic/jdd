@@ -12,8 +12,10 @@ export default function Home() {
                 <div className="logo">
                     <img src = "https://beta-jdev.vercel.app/logo.png" alt="logo-JDev" />
                 </div>
-                <h1 className="logo_name typing">Junior Dev</h1>
-                <p>opal_Inwza007x was here.<br />That animation did not bug, it is a feature 😎.</p>
+                <div class="text-reveal-container">
+                    <h1 className="logo_name typing">Junior Dev</h1>
+                    <p>opal_Inwza007x was here.<br />That animation did not bug, it is a feature 😎.</p>
+                </div>
             </div>
             <div className="aurora-container">
                 <Link href="/contests">
