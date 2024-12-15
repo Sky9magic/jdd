@@ -1,89 +1,145 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Header from '../../components/header';
 import Footer from "../../components/footer";
-import "../../styles/contests.css"
-{/*import Link from "next/link";*/}
+import "../../styles/contests.css";
 
 export default function Contests() {
-    return(
+    useEffect(() => {
+        const second = 1000, minute = second * 60, hour = minute * 60, day = hour * 24;
+        const targetDate = new Date("2024-12-30T18:00:00Z").getTime();
+
+        const x = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            document.getElementById("days")!.innerText = Math.floor(distance / day).toString();
+            document.getElementById("hours")!.innerText = Math.floor((distance % day) / hour).toString();
+            document.getElementById("minutes")!.innerText = Math.floor((distance % hour) / minute).toString();
+            document.getElementById("seconds")!.innerText = Math.floor((distance % minute) / second).toString();
+
+            if (distance < 0) {
+                document.getElementById("countdown")!.innerHTML = "<h2>The countdown has ended!</h2>";
+                clearInterval(x);
+            }
+        }, 1000);
+        return () => clearInterval(x);
+    }, []);
+
+    return (
         <>
-            <Header/>
-            <div className = "main">
-                <div className = "title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
-                <div className = "lines"><hr></hr></div>
+            <Header />
+            <div className="main">
+                {/* opal_Inwza007x Annocument code */}
+                <div className="hero">
+                    <div className="text-reveal-container">
+                        <h1 className="Upcoming-Contest-text">Upcoming Contest</h1>
+                        <h1 className="first-blinking-dot">.</h1>
+                        <h1 className="second-blinking-dot">.</h1>
+                        <h1 className="third-blinking-dot">.</h1>
+                        <br />
+                        <div className="moving-frame">
+                            <img className="poster-img" src="https://beta-jdev.vercel.app/Poster_2567NewYearContest.png" alt="Poster" />
+                        </div>
+                        <br />
+                        <div className="countdown-container">
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="snowflake">❄</div>
+                            <div className="text-near-timer">New Year Contest</div>
+                            <div id="countdown">
+                                <ul>
+                                    <li><span id="days"></span> days</li>
+                                    <li><span id="hours"></span> Hours</li>
+                                    <li><span id="minutes"></span> Minutes</li>
+                                    <li><span id="seconds"></span> Seconds</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* opal_Inwza007x Annocument code */}
+                <div className="title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
+                <div className="lines"><hr /></div>
                 <div className="cont">
                     <div className="container">
                         <div className="left-half">
-                            <center style = {{fontSize: "30px", margin: "30px"}}>
+                            <center style={{ fontSize: "30px", margin: "30px" }}>
                                 Upcoming Contest(s)
                             </center>
                             <div className="left-box">
-                                <div className = "list1">
-                                    <a className="contest" href = "https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank">
-                                        <div className="flex" style={{alignItems:"center"}}>
-                                            <div style={{textAlign:'center'}} className="flex flex-1 flex-col">
+                                <div className="list1">
+                                    <a className="contest" href="https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank" rel="noopener noreferrer">
+                                        <div className="flex" style={{ alignItems: "center" }}>
+                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
                                                 <b>Junior Dev New Year Contest 2025</b>
-                                                30/Nov/2024 18:00 - 1/Jan/2025 00:00 <br></br>
+                                                30/Nov/2024 18:00 - 1/Jan/2025 00:00 <br />
                                                 Registration Begins at 30/Nov/2024 12:00
                                             </div>
                                             <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces"></img>
+                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
                                             </div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="vertical-line"></div> */}
                         <div className="right-half">
-                            <center style = {{fontSize: "30px", margin: "30px"}}>
+                            <center style={{ fontSize: "30px", margin: "30px" }}>
                                 Past Contests
                             </center>
                             <div className="right-box">
-                                <div className = "list2">
-                                    <a className="contest" href = "https://codeforces.com/group/eScIVDG1u2/contest/560196" target="_blank">
-                                        <div className="flex" style={{alignItems:"center"}}>
-                                            <div style={{textAlign:'center'}} className="flex flex-1 flex-col">
+                                <div className="list2">
+                                    <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/560196" target="_blank" rel="noopener noreferrer">
+                                        <div className="flex" style={{ alignItems: "center" }}>
+                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
                                                 <b>Junior Dev Loy Krathong Contest 2024</b>
                                                 16/Nov/2024 19:00 - 23:00
                                             </div>
                                             <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces"></img>
+                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
                                             </div>
                                         </div>
                                     </a>
-                                    <br></br>
-                                    <a className="contest" href = "https://codeforces.com/group/eScIVDG1u2/contest/553124" target="_blank">
-                                        <div className="flex" style={{alignItems:"center"}}>
-                                            <div style={{textAlign:'center'}} className="flex flex-1 flex-col">
+                                    <br />
+                                    <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/553124" target="_blank" rel="noopener noreferrer">
+                                        <div className="flex" style={{ alignItems: "center" }}>
+                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
                                                 <b>Pre-POSN1 DAY2 (2024)</b>
                                                 9/Oct/2024 19:00 - 10/Oct/2024 00:00
                                             </div>
                                             <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces"></img>
+                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
                                             </div>
                                         </div>
                                     </a>
-                                    <br></br>
-                                    <a className="contest" href = "https://codeforces.com/group/eScIVDG1u2/contest/553127" target="_blank">
-                                        <div className="flex" style={{alignItems:"center"}}>
-                                            <div style={{textAlign:'center'}} className="flex flex-1 flex-col">
+                                    <br />
+                                    <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/553127" target="_blank" rel="noopener noreferrer">
+                                        <div className="flex" style={{ alignItems: "center" }}>
+                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
                                                 <b>Pre-POSN1 DAY1 (2024)</b>
                                                 8/Oct/2024 19:00 - 9/Oct/2024 00:00
                                             </div>
                                             <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces"></img>
+                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
                                             </div>
                                         </div>
                                     </a>
-                                    <br></br>
+                                    <br />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     );
 }
