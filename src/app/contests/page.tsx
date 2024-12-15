@@ -31,6 +31,7 @@ export default function Contests() {
         <>
             <Header />
             <div className="main">
+                <div className="title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
                 {/* opal_Inwza007x Annocument code */}
                 <div className="hero">
                     <div className="text-reveal-container">
@@ -66,15 +67,12 @@ export default function Contests() {
                     </div>
                 </div>
                 {/* opal_Inwza007x Annocument code */}
-                <div className="title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
-                <div className="lines"><hr /></div>
                 <div className="cont">
+                    <center style={{ fontSize: "30px", margin: "30px" }}>
+                        Past Contests
+                    </center>
                     <div className="container">
                         <div className="left-half">
-                            <center style={{ fontSize: "30px", margin: "30px" }}>
-                                Upcoming Contest(s)
-                            </center>
-                            <div className="left-box">
                                 <div className="list1">
                                     <a className="contest" href="https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank" rel="noopener noreferrer">
                                         <div className="flex" style={{ alignItems: "center" }}>
@@ -89,13 +87,8 @@ export default function Contests() {
                                         </div>
                                     </a>
                                 </div>
-                            </div>
                         </div>
                         <div className="right-half">
-                            <center style={{ fontSize: "30px", margin: "30px" }}>
-                                Past Contests
-                            </center>
-                            <div className="right-box">
                                 <div className="list2">
                                     <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/560196" target="_blank" rel="noopener noreferrer">
                                         <div className="flex" style={{ alignItems: "center" }}>
@@ -134,7 +127,6 @@ export default function Contests() {
                                     </a>
                                     <br />
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
