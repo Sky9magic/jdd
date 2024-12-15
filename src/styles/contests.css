@@ -2,7 +2,7 @@ body{
     background: rgb(0,0,0);
     margin: 0;
     height: 100%;
-}
+} 
 
 .main{
     margin: 5px;
@@ -65,6 +65,7 @@ body{
     border-color: blue;
     border-radius: 5px;
     color: white;
+    background-color:black;
     transition: all .5s cubic-bezier(0, 0.96, 0.42, 0.97);
     padding: 10px;
 }
@@ -100,7 +101,7 @@ body{
 .vertical-line {
     position: absolute;
     left: 50%;
-    height: 100vh;
+    height: 100%;
     width: 2px;
     background-color: rgb(255, 255, 255);
 }
@@ -108,7 +109,7 @@ body{
 .container {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     width: 200vh;
     padding: 0 20px;
 }
@@ -134,7 +135,7 @@ body{
 .left-half, .right-half {
     justify-content: center;
     width: 50%;
-    height: 120vh;
+    height: 100%;
 }
 
 .list1, .list2{
@@ -345,8 +346,8 @@ opal_Inwza007x on top text and poster
 }
 
 @keyframes snow {
-    0% { top: -23.333%; }
-    100% { top: 100%; }
+    0% { top: -23.333%; rotate: 0deg;}
+    100% { top: 100%; rotate: 1080deg; }
 }
 
 .snowflake:nth-child(1) {
