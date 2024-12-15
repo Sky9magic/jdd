@@ -379,9 +379,9 @@ opal_Inwza007x on top text and poster
 }
 .snowflake:nth-child(8) {
     left: -37%;
-    animation-duration: clamp(36s, 44s, 50s);
+    animation-duration: clamp(18s, 22s, 25s);
 }
 .snowflake:nth-child(9) {
     left: 142%;
-    animation-duration: clamp(17s, 19s, 22s);
+    animation-duration: clamp(22s, 26s, 29s);
 }
