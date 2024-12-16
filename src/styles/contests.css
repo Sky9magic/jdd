@@ -108,15 +108,14 @@ body{
 
 .container {
     display: flex;
-    justify-content: space-between;
     height: 100%;
     width: 200vh;
-    padding: 0 20px;
+    margin-left: 50vh;
 }
 
 .left-box, .right-box{
     overflow-y: scroll;
-    width: 90%;
+    width: 200%;
     /*height: 80%;*/
     height: 45%;
     background-color: black;
@@ -134,21 +133,21 @@ body{
 
 .left-half, .right-half {
     justify-content: center;
-    width: 50%;
-    height: 100%;
+    width: 45%;
+    height: 80%;
 }
 
 .list1, .list2{
     color: black;
-    font-size: 25px;
     justify-content: left;
-    margin: 20px;
+    margin: 15px;
     font-size: 20px;
+    overflow-y: scroll
 }
 
-.list1 > p, .list2 > p{
-    margin: 10px;
-}
+/* .list1 > p, .list2 > p{
+    margin: 5px;
+} */
 
 .lines{
     color: white;
@@ -173,7 +172,7 @@ opal_Inwza007x on top text and poster
 */
 
 .hero {
-    margin-top: 33px;
+    margin-top: 10px;
     color: #c6d8de;
     text-align: center;
 }
@@ -182,6 +181,7 @@ opal_Inwza007x on top text and poster
     opacity: 0;
     transform: translateY(-20px);
     animation: slideIn 1s ease-out forwards;
+    width: 200%;
 }
 
 @keyframes slideIn {
@@ -196,10 +196,10 @@ opal_Inwza007x on top text and poster
 }
 
 .Upcoming-Contest-text {
+    margin-left: 5%;
     display: inline;
     color: white;
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
     letter-spacing: 1px;
 }
 
@@ -386,3 +386,11 @@ opal_Inwza007x on top text and poster
     left: 142%;
     animation-duration: clamp(22s, 26s, 29s);
 }
+
+.main_2 {
+    display: flex;
+    width: 200vh;
+    left: 50vh;
+    right: 50vh;
+}
+

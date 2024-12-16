@@ -32,101 +32,89 @@ export default function Contests() {
             <Header />
             <div className="main">
                 <div className="title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
-                {/* opal_Inwza007x Annocument code */}
-                <div className="hero">
-                    <div className="text-reveal-container">
-                        <h1 className="Upcoming-Contest-text">Upcoming Contest</h1>
-                        <h1 className="first-blinking-dot">.</h1>
-                        <h1 className="second-blinking-dot">.</h1>
-                        <h1 className="third-blinking-dot">.</h1>
-                        <br />
-                        <div className="moving-frame">
-                            <img className="poster-img" src="https://beta-jdev.vercel.app/Poster_2567NewYearContest.png" alt="Poster" />
-                        </div>
-                        <br />
-                        <div className="countdown-container">
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="snowflake">❄</div>
-                            <div className="text-near-timer">New Year Contest</div>
-                            <div id="countdown">
-                                <ul>
-                                    <li><span id="days"></span> days</li>
-                                    <li><span id="hours"></span> Hours</li>
-                                    <li><span id="minutes"></span> Minutes</li>
-                                    <li><span id="seconds"></span> Seconds</li>
-                                </ul>
+                <div className="main_2">
+                    {/* opal_Inwza007x Annocument code */}
+                    <div className="hero">
+                        <div className="text-reveal-container">
+                            <h1 className="Upcoming-Contest-text">Upcoming Contest</h1>
+                            <h1 className="first-blinking-dot">.</h1>
+                            <h1 className="second-blinking-dot">.</h1>
+                            <h1 className="third-blinking-dot">.</h1>
+                            <br />
+                            <div className="moving-frame">
+                                <a href="https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank" rel="noopener noreferrer">
+                                    <img className="poster-img" src="https://beta-jdev.vercel.app/Poster_2567NewYearContest.png" alt="Poster" />
+                                </a>
+                            </div>
+                            <br />
+                            <div className="countdown-container">
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="snowflake">❄</div>
+                                <div className="text-near-timer">New Year Contest</div>
+                                <div id="countdown">
+                                    <ul>
+                                        <li><span id="days"></span> days</li>
+                                        <li><span id="hours"></span> Hours</li>
+                                        <li><span id="minutes"></span> Minutes</li>
+                                        <li><span id="seconds"></span> Seconds</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {/* opal_Inwza007x Annocument code */}
-                <div className="cont">
-                    <center style={{ fontSize: "30px", margin: "30px" }}>
-                        Past Contests
-                    </center>
-                    <div className="container">
-                        <div className="left-half">
-                                <div className="list1">
-                                    <a className="contest" href="https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank" rel="noopener noreferrer">
-                                        <div className="flex" style={{ alignItems: "center" }}>
-                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
-                                                <b>Junior Dev New Year Contest 2025</b>
-                                                30/Nov/2024 18:00 - 1/Jan/2025 00:00 <br />
-                                                Registration Begins at 30/Nov/2024 12:00
+                    {/* opal_Inwza007x Annocument code */}
+                    <div className="cont">
+                        <p style={{ fontSize: "30px", margin: "20px" , marginLeft: "80vh"}}>
+                            Past Contests
+                        </p>
+                        <div className="container">
+                            <div className="right-half">
+                                    <div className="list2">
+                                        <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/560196" target="_blank" rel="noopener noreferrer">
+                                            <div className="flex" style={{ alignItems: "center" }}>
+                                                <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
+                                                    <b>Junior Dev Loy Krathong Contest 2024</b>
+                                                    16/Nov/2024 19:00 - 23:00
+                                                </div>
+                                                <div>
+                                                    <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                                </div>
                                             </div>
-                                            <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                        </a>
+                                        <br />
+                                        <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/553124" target="_blank" rel="noopener noreferrer">
+                                            <div className="flex" style={{ alignItems: "center" }}>
+                                                <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
+                                                    <b>Pre-POSN1 DAY2 (2024)</b>
+                                                    9/Oct/2024 19:00 - 10/Oct/2024 00:00
+                                                </div>
+                                                <div>
+                                                    <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                                </div>
                                             </div>
-                                        </div>
-                                    </a>
-                                </div>
-                        </div>
-                        <div className="right-half">
-                                <div className="list2">
-                                    <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/560196" target="_blank" rel="noopener noreferrer">
-                                        <div className="flex" style={{ alignItems: "center" }}>
-                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
-                                                <b>Junior Dev Loy Krathong Contest 2024</b>
-                                                16/Nov/2024 19:00 - 23:00
+                                        </a>
+                                        <br />
+                                        <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/553127" target="_blank" rel="noopener noreferrer">
+                                            <div className="flex" style={{ alignItems: "center" }}>
+                                                <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
+                                                    <b>Pre-POSN1 DAY1 (2024)</b>
+                                                    8/Oct/2024 19:00 - 9/Oct/2024 00:00
+                                                </div>
+                                                <div>
+                                                    <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                                </div>
                                             </div>
-                                            <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <br />
-                                    <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/553124" target="_blank" rel="noopener noreferrer">
-                                        <div className="flex" style={{ alignItems: "center" }}>
-                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
-                                                <b>Pre-POSN1 DAY2 (2024)</b>
-                                                9/Oct/2024 19:00 - 10/Oct/2024 00:00
-                                            </div>
-                                            <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <br />
-                                    <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/553127" target="_blank" rel="noopener noreferrer">
-                                        <div className="flex" style={{ alignItems: "center" }}>
-                                            <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
-                                                <b>Pre-POSN1 DAY1 (2024)</b>
-                                                8/Oct/2024 19:00 - 9/Oct/2024 00:00
-                                            </div>
-                                            <div>
-                                                <img className="platform" src="/codeforces.webp" alt="Codeforces" />
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <br />
-                                </div>
+                                        </a>
+                                        <br />
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
