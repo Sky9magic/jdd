@@ -6,7 +6,7 @@ import "../styles/home_styles.css"
 
 export default function Home() {
     return (
-        <>
+        <> 
             <Header />
             <div className="hero">
                 <div className="logo">
