@@ -57,7 +57,9 @@ export default function Contests() {
                                 <div className="snowflake">❄</div>
                                 <div className="snowflake">❄</div>
                                 <div className="snowflake">❄</div>
-                                <div className="text-near-timer">New Year Contest</div>
+                                <a href="https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank" rel="noopener noreferrer">
+                                    <div className="text-near-timer">New Year Contest</div>
+                                </a>
                                 <div id="countdown">
                                     <ul>
                                         <li><span id="days"></span> days</li>
