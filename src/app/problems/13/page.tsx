@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useState } from "react";
 import Header from "../../../components/header";
 import "../../../styles/subproblems.css";
 import Footer from "../../../components/footer";
