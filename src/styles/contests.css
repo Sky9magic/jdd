@@ -272,7 +272,7 @@ opal_Inwza007x code below
 
 .poster-img {
     display: block;
-    max-width: 100%;
+    max-width: 97%;
     height: auto;
     border-radius: clamp(2.61px, 0.48vw, 3.15px);
     box-shadow: 0 clamp(0.98px, 0.16vw, 2.63px) clamp(3.15px, 0.32vw, 6.35px) rgba(0, 0, 0, 0.4);
@@ -280,16 +280,18 @@ opal_Inwza007x code below
 }
 
 .moving-frame {
-    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: clamp(1.63px, 0.63vw, 4.85px);
+    padding: 2.3px;
     border-radius: clamp(3.12px, 0.63vw, 4.85px);
     background: linear-gradient(45deg, #ff00ff, #00ffff, #ffcc00, #ff003c);
     background-size: 300% 300%;
-    box-shadow: 0 0 clamp(4.85px, 0.63vw, 9.52px) rgba(255, 0, 255, 0.6), 0 0 clamp(6.40px, 0.91vw, 12.32px) rgba(0, 255, 255, 0.6), 0 0 clamp(9.52px, 1.27vw, 14.97px) rgba(255, 255, 0, 0.6);
+    box-shadow: 0 0 clamp(4.85px, 0.63vw, 9.52px) rgba(255, 0, 255, 0.6), 
+                0 0 clamp(6.40px, 0.91vw, 12.32px) rgba(0, 255, 255, 0.6), 
+                0 0 clamp(9.52px, 1.27vw, 14.97px) rgba(255, 255, 0, 0.6);
     margin: clamp(2.61px, 0.32vw, 5.02px);
+    max-width: 60%;
 }
 
 .countdown-container {
