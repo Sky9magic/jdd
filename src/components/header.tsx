@@ -8,9 +8,9 @@ export default function Header() {
             <div className="background"></div>
             <nav className="nav-head">
                 <Link href="/">Home</Link>
-                <Link href="/problems">Problem</Link>
-                <Link href="/contests">Contest</Link>
-                <Link href="/settings">Setting</Link>
+                <Link href="/problems">Problems</Link>
+                <Link href="/contests">Contests</Link>
+                <Link href="/settings">Settings</Link>
             </nav>
         </header>
     );
