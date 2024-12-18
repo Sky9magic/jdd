@@ -30,22 +30,21 @@ body {
     width: 0px;
 }
 
-.problem{
+.problem {
     width: 113.5vh;
-    display: flex = 1;
+    display: flex;
     height: 12.5vh;
     border-width: 3px;
     border-radius: 10px;
     border-color: blue;
     margin-bottom: 50px;
-    color:white;
+    color: white;
     transition: all 0.5s ease;
     margin: 1.7vh;
-    gap: 10px;
     padding-left: 30px;
-    padding-top: 1%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 100px;
 }
 
 .problemname{
@@ -85,7 +84,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
-    gap: 140px;
+    gap: 500px;
     border-color: rgb(164, 164, 164);
     border-width: 2px;
     padding-left: 30px;
@@ -98,4 +97,12 @@ body {
 
 .problemstitle{
     padding: -10px;
+}
+
+.titleproblemwow {
+    left: 10px;
+}
+
+.problemcontest {
+    margin-right: 4.5vh;
 }
