@@ -5,7 +5,7 @@ body {
 } 
 
 .main{
-    margin: 5px;
+    margin: 0px;
     size: 100%;
     color: white;
     font-size: 50px;    
@@ -16,7 +16,7 @@ body {
 .box{
     width: 120vh;
     height: 55vh;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 15px;
     border-color: blue;
     background-color: black;
@@ -32,31 +32,44 @@ body {
 
 .problem{
     width: 113.5vh;
-    display: flex;
-    height: 9.5vh;
-    border-width: 5px;
+    display: flex = 1;
+    height: 12.5vh;
+    border-width: 3px;
     border-radius: 10px;
     border-color: blue;
     margin-bottom: 50px;
     color:white;
     transition: all 0.5s ease;
     margin: 1.7vh;
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 1%;
+    justify-content: center;
+    align-items: center;
 }
+
+.problemname{
+    color: rgb(110, 255, 255);
+}
+
+.problemlist{
+    display: flex;
+}
+
 .problem:hover{
     border-radius: 15px;
     border-color: #00ff76;
-    background-color:#2090ff;
-    color: black;
+    /* background-color:#2090ff; */
+    /* color: black; */
 }
 
 .list{
     margin: 5px;
     size: 100%;
     color: white;
-    font-size: 30px;    
+    font-size: 20px;    
     align-items: center;
     justify-content: center;
-
 }
 
 .no-problems {
@@ -65,4 +78,24 @@ body {
     font-size: 20px;
     color: white;
     text-align: center;
+}
+
+.listheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    gap: 140px;
+    border-color: rgb(164, 164, 164);
+    border-width: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(98, 98, 98);
+    border-radius: 10px;
+}
+
+.problemstitle{
+    padding: -10px;
 }
