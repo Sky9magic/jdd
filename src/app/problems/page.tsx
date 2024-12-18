@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Header from "../../components/header";
 import "../../styles/problems.css";
 import Footer from "../../components/footer";
+import Link from "next/link";
 
 export default function Problems() {
     const problemsList = [
@@ -36,8 +37,6 @@ export default function Problems() {
         { name: "Soul", index: 26, contest: "Junior Dev Loy Krathong Contest 2024" },
         { name: "Collect", index: 27, contest: "Junior Dev Loy Krathong Contest 2024" },
     ];
-
-    // Update type here to match the structure of the problemsList
     const [searchTerm, setSearchTerm] = useState<string>("");
     const [filteredProblems, setFilteredProblems] = useState<{ name: string, index: number, contest: string }[]>(problemsList);
 
@@ -83,13 +82,13 @@ export default function Problems() {
                         {filteredProblems.length > 0 ? (
                             filteredProblems.map((problem) => (
                                 <div className="problemlist" key={problem.index}>
-                                    <a className="problem" href={`/problems/${problem.index}`}>
+                                    <Link className="problem" href={`/problems/${problem.index}`}>
                                         <div className="titleproblemwow">
                                             <div className="problemname">{problem.name}</div>
                                             <div className="problemnum">{problem.index}</div>
                                         </div>
                                         <div className="problemcontest">{problem.contest}</div>
-                                    </a>
+                                    </Link>
                                 </div>
                             ))
                         ) : (
