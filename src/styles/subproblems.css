@@ -1,3 +1,8 @@
+.main {
+    justify-content: center;
+    align-items: center;
+}
+
 .pdffile {
     justify-self: center;
     align-self: center;
