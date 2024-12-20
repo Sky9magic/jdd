@@ -9,8 +9,8 @@ const Page = () => {
     <>
       <Header/>
       <div className = "main">
-        <a className="submit" href="https://codeforces.com/group/eScIVDG1u2/contest/560196" target="_blank" rel="noopener noreferrer">
-          <p>Submit Code</p>
+        <a className="submit" href="https://codeforces.com/group/eScIVDG1u2/contest/553127/submit" target="_blank" rel="noopener noreferrer">
+          Submit Code
         </a>
         <div className="pdffile"><embed src="/0.pdf" width="800px" height="600px" type="application/pdf"></embed></div>
       </div>
