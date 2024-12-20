@@ -1,10 +1,15 @@
 .main {
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .pdffile {
     justify-self: center;
     align-self: center;
     margin-bottom: 20px;
+}
+
+.submit {
+    margin-right: 10%;
 }
