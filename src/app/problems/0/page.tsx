@@ -3,6 +3,7 @@
 import Header from "../../../components/header";
 import "../../../styles/subproblems.css";
 import Footer from "../../../components/footer";
+import "../styles/main_styles.css";
 
 const Page = () => {
   return (

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import "../styles/home_styles.css"
+import "../styles/main_styles.css";
 
 export default function Home() {
     return (
