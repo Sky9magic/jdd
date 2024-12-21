@@ -1,10 +1,8 @@
 .Footer {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    color: #FFFFFF;
     text-align: center;
     padding: 20px 10px;
     position: relative;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 .Footer::before {
@@ -14,45 +12,11 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(
-        to right,
-        rgba(var(--gradient-color), 0) 10%,
-        var(--text-color) 50%,
-        rgba(var(--gradient-color), 0) 90%
-    );
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 10%, #FFFFFF 50%, rgba(255, 255, 255, 0) 90%);
     pointer-events: none;
-    transition: background-color 0.3s;
 }
 
 .Footer .text-footer {
     margin: 0;
     font-size: 14px;
-}
-
-.Footer .text-footer a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.Footer .text-footer a:hover {
-    text-decoration: underline;
-}
-
-.theme-toggle-btn {
-    margin-top: 10px;
-    padding: 10px 15px;
-    font-size: 1rem;
-    cursor: pointer;
-    border: 1px solid var(--text-color);
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.theme-toggle-btn:hover {
-    background-color: var(--text-color);
-    color: var(--bg-color);
 }
