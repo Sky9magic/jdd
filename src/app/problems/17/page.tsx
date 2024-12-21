@@ -2,7 +2,6 @@
 
 import Header from "../../../components/header";
 import "../../../styles/subproblems.css";
-import "../styles/main_styles.css";
 import Footer from "../../../components/footer";
 
 const Page = () => {

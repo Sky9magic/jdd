@@ -4,7 +4,6 @@ import React, { useEffect } from "react";
 import Header from '../../components/header';
 import Footer from "../../components/footer";
 import "../../styles/contests.css";
-import "../styles/main_styles.css";
 
 export default function Contests() {
     useEffect(() => {

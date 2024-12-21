@@ -5,7 +5,6 @@ import Header from "../../components/header";
 import "../../styles/problems.css";
 import Footer from "../../components/footer";
 import Link from "next/link";
-import "../styles/main_styles.css";
 
 export default function Problems() {
     const problemsList = [

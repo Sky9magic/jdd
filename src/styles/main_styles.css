@@ -1,9 +1,0 @@
-[data-theme="light"] {
-    --bg-color: #ffffff;
-    --gradient-color: 0, 0, 0;
-}
-
-[data-theme="dark"] {
-    --bg-color: #121212;
-    --gradient-color: 255, 255, 255;
-}

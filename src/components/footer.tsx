@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import "../styles/footer_styles.css";
-import "../styles/main_styles.css";
 
 export default function Footer() {
     const [theme, setTheme] = useState(() => {
