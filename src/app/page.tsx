@@ -18,11 +18,10 @@ export default function Home() {
             </div>
             <div className="aurora-container">
                 <Link href="https://juniordev.contest.codeforces.com/">
-                    <div className="aurora-text">Join Our Codeforces Group Here</div>
+                    <center className="aurora-text">Join Our Codeforces Group Here</center>
                 </Link>
-                <br></br>
                 <Link href="/contests">
-                    <div className="aurora-text">View All Contests</div>
+                    <center className="aurora-text">View All Contests</center>
                 </Link>
             </div>
             <br />
