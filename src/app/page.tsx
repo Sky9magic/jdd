@@ -20,6 +20,7 @@ export default function Home() {
                 <Link href="https://juniordev.contest.codeforces.com/">
                     <div className="aurora-text">Join Our Codeforces Group Here</div>
                 </Link>
+                <br></br>
                 <Link href="/contests">
                     <div className="aurora-text">View All Contests</div>
                 </Link>
