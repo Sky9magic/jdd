@@ -27,7 +27,7 @@ export default function Footer() {
                 <div className="themebutton">
                     Toggle Theme: 
                     <button className="theme-toggle-btn" onClick={toggleTheme}>
-                        {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+                        {theme === "light" ? " 🌙Dark Mode" : " ☀️Light Mode"}
                     </button>
                 </div>
             </center>

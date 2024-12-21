@@ -24,3 +24,8 @@
 .text-footer {
     gap: 20px;
 }
+
+.theme-toggle-btn{
+    background-color: rgb(167, 208, 255);
+    color: black;
+}
