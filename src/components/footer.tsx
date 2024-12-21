@@ -24,9 +24,12 @@ export default function Footer() {
         <footer className="Footer">
             <center className="text-footer">
                 <Link href="/">© 2024 Junior Dev. All rights reserved.</Link>
-                <button className="theme-toggle-btn" onClick={toggleTheme}>
-                    {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
-                </button>
+                <div className="themebutton">
+                    Toggle Theme: 
+                    <button className="theme-toggle-btn" onClick={toggleTheme}>
+                        {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+                    </button>
+                </div>
             </center>
         </footer>
     );
