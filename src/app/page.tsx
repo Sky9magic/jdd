@@ -14,12 +14,14 @@ export default function Home() {
                 </div>
                 <div className="text-reveal-container">
                     <h1 className="logo_name typing">Junior Dev</h1>
-                    <p>opal_Inwza007x was here.<br />That animation did not bug, it is a feature 😎.</p>
                 </div>
             </div>
             <div className="aurora-container">
+                <Link href="https://juniordev.contest.codeforces.com/">
+                    <div className="aurora-text">Join Our Codeforces Group Here</div>
+                </Link>
                 <Link href="/contests">
-                    <div className="aurora-text">View all competitions</div>
+                    <div className="aurora-text">View All Contests</div>
                 </Link>
             </div>
             <br />
