@@ -28,4 +28,9 @@
 .theme-toggle-btn{
     background-color: rgb(167, 208, 255);
     color: black;
+    transition: 0.5s;
+}
+
+.theme-toggle-btn:hover{
+    background-color: rgb(108, 157, 255);
 }
