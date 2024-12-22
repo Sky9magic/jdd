@@ -5,17 +5,6 @@ import Link from "next/link";
 import "../styles/footer_styles.css";
 
 export default function Footer() {
-    const [theme, setTheme] = useState(() => {
-        if (typeof window !== "undefined") {
-            return document.body.getAttribute("data-theme") || "light";
-        }
-        return "light"; 
-    });
-
-    useEffect(() => {
-        document.body.setAttribute("data-theme", theme);
-    }, [theme]);
-
     return (
         <footer className="Footer">
             <center className="text-footer">
