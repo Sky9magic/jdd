@@ -16,10 +16,6 @@ export default function Footer() {
         document.body.setAttribute("data-theme", theme);
     }, [theme]);
 
-    const toggleTheme = () => {
-        setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-    };
-
     return (
         <footer className="Footer">
             <center className="text-footer">
