@@ -16,7 +16,9 @@ export default function About() {
                 </div>
             </div>
             <div className="desc">
-                <p>Junior dev is an organization for hosting contests on various topics for people to practice doing problem ranging from basic coding to IOI</p>
+                <div className="aurora-container">
+                    <p className="aurora-text">Junior dev is an organization for hosting contests on various topics for people to practice doing problem ranging from basic coding to IOI</p>
+                </div>
                 <p>made with ❤ by junior dev team members and friends</p>
                 <p>those who contributed to this project:</p>
                 <table>
