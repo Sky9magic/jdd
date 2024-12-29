@@ -1,14 +1,15 @@
 "use client";
 
 import React from "react";
-
+import "../styles/refresh.css";
 export default function RefreshButton() {
     function refreshPage() { 
         window.location.reload(); 
     }
     return (
-        <button onClick={ refreshPage }>
-            <span>(If the page looks buggy, please refresh)</span>
-        </button>
+        <div className="tooltip">
+            <button onClick={ refreshPage } className="refresher">⟳</button>
+            <span className="tooltiptext">If the page looks buggy, please refresh</span>
+        </div>
     );
 }
