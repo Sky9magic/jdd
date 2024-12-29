@@ -116,6 +116,7 @@ export default function Contests() {
                                         </a>
                                         <br />
                                     </div>
+                                <p>(If the page looks buggy, please refresh)</p>
                             </div>
                         </div>
                     </div>
