@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Header from "../../components/header";
 import "../../styles/problems.css";
 import Footer from "../../components/footer";
-import Link from "next/link";
+import Link from "next/link"; 
 
 export default function Problems() {
     const problemsList = [
