@@ -14,7 +14,7 @@ export default function About() {
                     <img src = "https://beta-jdev.vercel.app/logo.png" alt="logo-JDev" />
                 </div>
                 <div className="text-reveal-container">
-                    <h1 className="logo_name typing">About</h1>
+                    <h1 className="typing2">About</h1>
                 </div>
             </div>
             <div className="main" style={{alignItems:"center"}}>
@@ -24,7 +24,7 @@ export default function About() {
                     </div>
                     <p>made with ❤ by junior dev team members and friends</p>
                     <p>those who contributed to this project:</p>
-                    <div className="list">
+                    <div className="listww">
                         <p className="person">1.kaopj</p>
                         <p className="person">2.nagorn</p>
                         <p className="person">3.uhhhh</p>
