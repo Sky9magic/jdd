@@ -21,11 +21,11 @@ export default function About() {
                 </div>
                 <p>made with ❤ by junior dev team members and friends</p>
                 <p>those who contributed to this project:</p>
-                <table>
-                    <tr>1.kaopj</tr>
-                    <tr>2.nagorn</tr>
-                    <tr>3.uhhhh</tr>
-                </table>
+                <div className="list">
+                    <p className="person">1.kaopj</p>
+                    <p className="person">2.nagorn</p>
+                    <p className="person">3.uhhhh</p>
+                </div>
             </div>
             <br />
             <Footer />
