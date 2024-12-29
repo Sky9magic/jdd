@@ -4,11 +4,8 @@
 import React from "react";
 
 export default function RefreshButton() {
-    function handleClick() {
-        window.location.reload();
-    }
     return (
-        <button onClick={handleClick}>
+        <button onClick={window.location.reload();}>
             (If the page looks buggy, please refresh)
         </button>
     );
