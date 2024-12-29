@@ -1,4 +1,3 @@
-// src/components/RefreshButton.tsx
 "use client";
 
 import React from "react";
