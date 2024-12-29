@@ -8,7 +8,7 @@ export default function RefreshButton() {
     }
     return (
         <div className="tooltip">
-            <button onClick={ refreshPage } className="refresher">⟳</button>
+            <button onClick={ refreshPage } className="refresher">↻</button>
             <span className="tooltiptext">If the page looks buggy, please refresh</span>
         </div>
     );
