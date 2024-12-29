@@ -3,6 +3,9 @@ import Link from "next/link";
 import "../styles/header_styles.css";
 
 export default function Header() {
+    function handleClick() {
+        window.location.reload();
+    }
     return (
         <header className="head">
             <div className="background"></div>
@@ -10,7 +13,7 @@ export default function Header() {
                 <Link href="/">Home</Link>
                 <Link href="/problems">Problems</Link>
                 <Link href="/contests">Contests</Link>
-                <button onClick={{window.location.reload()}}>(If the page looks buggy, please refresh)</button>
+                <button onClick={handleClick}>(If the page looks buggy, please refresh)</button>
             </nav>
         </header> 
     );
