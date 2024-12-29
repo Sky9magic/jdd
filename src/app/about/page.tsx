@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 
 import "../styles/about.css"
  
-export default function Home() {
+export default function About() {
     return (
         <> 
             <Header />
