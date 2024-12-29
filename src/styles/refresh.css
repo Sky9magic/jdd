@@ -26,3 +26,11 @@
   visibility: visible;
   transition-delay: 0.3s;
 }
+
+.refresher {
+  transition: all 0.5s linear;
+}
+
+.refresher:hover {
+  rotate: 360deg;
+}
