@@ -17,7 +17,7 @@ export default function About() {
                     <h1 className="typing2">About</h1>
                 </div>
             </div>
-            <div className="main" style={{alignItems:"center"}}>
+            <div className="main" style={{alignItems:"center",textAlign:"center"}}>
                 <div className="desc">
                     <div className="aurora-container">
                         <p className="aurora-text">Junior dev is an organization for hosting contests on various topics for people to practice doing problem ranging from basic coding to IOI</p>
