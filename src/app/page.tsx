@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import "../styles/home_styles.css"
+import "../styles/home_styles.css";
  
 export default function Home() {
     return (
