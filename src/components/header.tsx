@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import "../styles/header_styles.css";
-import RefreshButton from "./RefreshButton";
+import RefreshButton from "refresh_btn.tsx";
 
 export default function Header() {
     return (
