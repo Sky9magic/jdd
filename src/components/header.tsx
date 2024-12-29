@@ -10,7 +10,7 @@ export default function Header() {
                 <Link href="/">Home</Link>
                 <Link href="/problems">Problems</Link>
                 <Link href="/contests">Contests</Link>
-                <button onClick=window.location.reload()>(If the page looks buggy, please refresh)</button>
+                <button onClick={{window.location.reload()}}>(If the page looks buggy, please refresh)</button>
             </nav>
         </header> 
     );
