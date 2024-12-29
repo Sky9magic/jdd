@@ -24,7 +24,6 @@ export default function Home() {
                     <center className="aurora-text">View All Contests</center>
                 </Link>
             </div>
-            <p style={{textAlign:"center"}}>(If the page looks buggy, please refresh)</p>
             <br />
             <Footer />
         </>
