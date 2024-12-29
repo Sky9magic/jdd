@@ -1,11 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import "../styles/header_styles.css";
+import RefreshButton from "./RefreshButton";
 
 export default function Header() {
-    function handleClick() {
-        window.location.reload();
-    }
     return (
         <header className="head">
             <div className="background"></div>
@@ -13,9 +11,9 @@ export default function Header() {
                 <Link href="/">Home</Link>
                 <Link href="/problems">Problems</Link>
                 <Link href="/contests">Contests</Link>
-                <button onClick={handleClick}>(If the page looks buggy, please refresh)</button>
+                <RefreshButton />
             </nav>
-        </header> 
+        </header>
     );
 }
 
