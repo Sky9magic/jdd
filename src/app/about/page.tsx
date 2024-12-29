@@ -24,9 +24,9 @@ export default function About() {
                 <p>made with ❤ by junior dev team members and friends</p>
                 <p>those who contributed to this project:</p>
                 <div className="list">
-                    <p className="person">1.kaopj</p>
-                    <p className="person">2.nagorn</p>
-                    <p className="person">3.uhhhh</p>
+                    <p className="person" textAlign="left">1.kaopj</p>
+                    <p className="person" textAlign="left">2.nagorn</p>
+                    <p className="person" textAlign="left">3.uhhhh</p>
                 </div>
             </div>
             <br />

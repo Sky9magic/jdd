@@ -44,17 +44,15 @@ p {
 }
 
 .desc {
-    background-color: black;
-    border-radius: 10px;
-    border: solid rgb(0, 153, 255) 10px;
     height: 100%;
-    width: 50%;
+    width: 80%;
 }
 
 .list {
     background-color: rgb(0, 2, 109);
-    border: solid rgb(21, 255, 0) 10px;
+    border: solid #00b8ff 10px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .person {
@@ -63,7 +61,7 @@ p {
     padding: 10px;
     background-color: rgb(0, 2, 109);
     border-radius: 10px;
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
 
 .person:hover {
