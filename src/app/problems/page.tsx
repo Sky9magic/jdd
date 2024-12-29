@@ -97,7 +97,6 @@ export default function Problems() {
                     </div>
                 </div>
             </div>
-            <p>(If the page looks buggy, please refresh)</p>
             <Footer />
         </>
     );
