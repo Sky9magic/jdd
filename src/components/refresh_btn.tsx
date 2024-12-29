@@ -4,8 +4,11 @@ import React from "react";
 
 export default function RefreshButton() {
     return (
-        <button onClick={window.location.reload}>
-            (If the page looks buggy, please refresh)
+        function refreshPage() { 
+            window.location.reload(); 
+        }
+        <button onClick={ refreshPage }>
+            <span>(If the page looks buggy, please refresh)</span>
         </button>
     );
 }
