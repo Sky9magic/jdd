@@ -4,13 +4,6 @@
     text-align: center;
 }
 
-.logo img {
-    width: clamp(200px, 20%, 400px);
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -19,18 +12,6 @@
 @keyframes blink {
     0%, 50% { border-color: white; }
     100% { border-color: transparent; }
-}
-
-.typing2 {
-    font-size: 45px;
-    font-weight: 700;
-    color: white;
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid white;
-    animation: typing 4s steps(26, end), blink 0.33s step-end infinite;
-    animation-fill-mode: forwards;
 }
 
 h1 {
@@ -46,6 +27,10 @@ p {
 .desc {
     height: 100%;
     width: 80%;
+}
+
+.desctext {
+    font-size: 40px;
 }
 
 .listww {
@@ -92,7 +77,7 @@ p {
     margin-top: 10px;
 }
 
-.aurora-text {
+.aurora-text2 {
     font-size: clamp(1.5rem, 2.5vw, 2.69rem);
     font-weight: bold;
     color: #fff;
@@ -102,17 +87,17 @@ p {
         -10px 0 40px rgba(255, 0, 255, 0.5),
         10px 0 20px rgba(0, 255, 255, 0.75),
         10px 0 40px rgba(108, 194, 74, 1);
-    animation: pulsate 7s linear infinite;
+    animation: pulsate2 7s linear infinite;
     transition: all 0.2s ease-in-out;
     will-change: text-shadow, transform;
 }
 
-.aurora-text:hover {
-    animation: pulsateLarger 5s linear infinite;
+.aurora-text2:hover {
+    animation: pulsateLarger2 5s linear infinite;
     transform: scale(1.025);
 }
 
-@keyframes pulsate {
+@keyframes pulsate2 {
     0% {
         text-shadow:
             0 5px 10px rgba(0, 0, 0, 0.325),
@@ -143,7 +128,7 @@ p {
     }
 }
 
-@keyframes pulsateLarger {
+@keyframes pulsateLarger2 {
     0% {
         text-shadow:
             0 5px 15px rgba(0, 0, 0, 0.325),

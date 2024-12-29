@@ -10,19 +10,14 @@ export default function About() {
         <> 
             <Header />
             <div className="hero">
-                <div className="logo">
-                    <img src = "https://beta-jdev.vercel.app/logo.png" alt="logo-JDev" />
-                </div>
-                <div className="text-reveal-container">
-                    <h1 className="typing2">About</h1>
+                <div className="text-reveal-container aurora-container">
+                    <h1 className="aurora-text2">About</h1>
                 </div>
             </div>
             <div className="main" style={{alignItems:"center"}}>
                 <div className="desc">
                     <div style={{textAlign:"center"}}>
-                        <div className="aurora-container">
-                            <p className="aurora-text">Junior dev is an organization for hosting contests on various topics for people to practice doing problem ranging from basic coding to IOI</p>
-                        </div>
+                        <p className="desctext">Junior dev is an organization for hosting contests on various topics for people to practice doing problem ranging from basic coding to IOI</p>
                         <p>made with ❤ by junior dev team members and friends</p>
                         <p>those who contributed to this project:</p>
                     </div>
