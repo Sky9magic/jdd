@@ -1,111 +1,73 @@
-body {
-    background: rgb(0,0,0);
-    margin: 0;
-    height: 100vh;
-} 
-
-.main{
-    margin: 0px;
-    size: 100%;
-    color: white;
-    font-size: 50px;    
-    align-items: center;
-    justify-items: center;
-}
-
-.box{
-    width: 120vh;
-    height: 55vh;
-    border-width: 3px;
-    border-radius: 15px;
-    border-color: blue;
-    background-color: black;
-    margin-bottom: 50px;
-    align-items: center;
-    justify-items: center;
-    overflow-y: scroll;
-    margin-top: 10px;
-}
-::-webkit-scrollbar {
-    width: 0px;
-}
-
-.problem {
-    width: 113.5vh;
-    display: flex;
-    height: 12.5vh;
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: blue;
-    margin-bottom: 50px;
-    color: white;
-    transition: all 0.5s ease;
-    margin: 1.7vh;
-    padding-left: 30px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
-}
-
-.problemname{
-    color: rgb(110, 255, 255);
-}
-
-.problemlist{
-    display: flex;
-}
-
-.problem:hover{
-    border-radius: 15px;
-    border-color: #00ff76;
-    /* background-color:#2090ff; */
-    /* color: black; */
-}
-
-.list{
-    margin: 5px;
-    size: 100%;
-    color: white;
-    font-size: 20px;    
-    align-items: center;
-    justify-content: center;
-}
-
-.no-problems {
-    display: flex;
-    height: 100vh;
-    font-size: 20px;
-    color: white;
+.hero {
+    margin-top: 33px;
+    color: #c6d8de;
     text-align: center;
 }
 
-.listheader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    gap: 530px;
-    border-color: rgb(164, 164, 164);
-    border-width: 2px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(98, 98, 98);
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    0%, 50% { border-color: white; }
+    100% { border-color: transparent; }
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.desc {
+    height: 100%;
+    width: 80%;
+}
+
+.desctext {
+    font-size: 40px;
+}
+
+.listww {
+    background-color: rgb(0, 2, 109);
+    border: solid #00b8ff 10px;
     border-radius: 10px;
-    width: 120vh;
+    margin: 10px;
 }
 
-.problemstitle{
-    padding: -10px;
+.person {
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(0, 2, 109);
+    border-radius: 10px;
+    transition: all 0.2s linear;
 }
 
-.titleproblemwow {
-    left: 10px;
+.person:hover {
+    background-color: rgb(0, 153, 255)
 }
 
-.problemcontest {
-    margin-right: 4.5vh;
+.text-reveal-container {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .aurora-container {

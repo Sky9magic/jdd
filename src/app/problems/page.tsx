@@ -54,7 +54,7 @@ export default function Problems() {
         <>
             <Header />
             <div className="main">
-                <div className="problemstitle"><h2>Problems</h2></div>
+                <div className="problemstitle aurora-container"><h2 className="aurora-text2">Problems</h2></div>
                 <div className="search-bar">
                     <input
                         type="text"
