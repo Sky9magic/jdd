@@ -8,7 +8,7 @@ import "../../styles/contests.css";
 export default function Contests() {
     useEffect(() => {
         const second = 1000, minute = second * 60, hour = minute * 60, day = hour * 24;
-        const targetDate = new Date("2024-12-30T18:00:00Z").getTime();
+        const targetDate = new Date("2024-12-30T11:00:00Z").getTime();
 
         const x = setInterval(function() {
             const now = new Date().getTime();
@@ -20,7 +20,7 @@ export default function Contests() {
             document.getElementById("seconds")!.innerText = Math.floor((distance % minute) / second).toString();
 
             if (distance < 0) {
-                document.getElementById("countdown")!.innerHTML = "<h2>The countdown has ended!</h2>";
+                document.getElementById("countdown")!.innerHTML = "<h2>The contest has started!</h2>";
                 clearInterval(x);
             }
         }, 1000);
