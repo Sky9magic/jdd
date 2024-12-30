@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import Header from '../../components/header';
 import Footer from "../../components/footer";
 import "../../styles/contests.css";
- 
+  
 export default function Contests() {
     useEffect(() => {
         const second = 1000, minute = second * 60, hour = minute * 60, day = hour * 24;
