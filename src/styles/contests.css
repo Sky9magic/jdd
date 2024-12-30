@@ -156,6 +156,10 @@ body {
     background-color: rgb(37, 37, 37);
 }
 
+.timezone {
+    font-size: 20px;
+}
+
 .lines {
     color: white;
 }
@@ -179,9 +183,9 @@ opal_Inwza007x code below
 */
 
 .hero {
-    margin-top: 10px;
     color: #c6d8de;
     text-align: center;
+    margin: 10px;
 }
 
 .text-reveal-container {

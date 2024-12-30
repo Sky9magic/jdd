@@ -34,7 +34,7 @@ export default function Contests() {
                 <div className="aurora-container2">
                     <h1 className="aurora-text2">Contests</h1>
                 </div>
-                <p>(Time is displayed as UTC+7 timezone)</p>
+                <p className="timezone">(Time is displayed as UTC+7 timezone)</p>
                 <div className="main_2">
                     {/* opal_Inwza007x Annocument code */}
                     <div className="hero">
