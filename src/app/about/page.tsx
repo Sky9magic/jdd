@@ -10,7 +10,7 @@ export default function About() {
         <> 
             <Header />
             <div className="hero">
-                <div className="text-reveal-container aurora-container">
+                <div className="aurora-container">
                     <h1 className="aurora-text2">About</h1>
                 </div>
             </div>
@@ -22,9 +22,18 @@ export default function About() {
                         <p>those who contributed to this project:</p>
                     </div>
                     <div className="listww">
-                        <p className="person">1.</p>
-                        <p className="person">2.</p>
-                        <p className="person">3.</p>
+                        <p className="person">1.Detective conan (The CEO of the Junior Dev organization)</p>
+                        <p className="person">2.Nagorn (Starter of the junior dev website)</p>
+                        <p className="person">3.kaopj (Has contributed in helping Nagorn making the website, has created problems for contests)</p>
+                        <p className="person">4.opal_Inwza007x (Has contributed in helping Nagorn making the website)</p>
+                        <p className="person">5. ()</p>
+                        <p className="person">6. ()</p>
+                        <p className="person">7. ()</p>
+                        <p className="person">8. ()</p>
+                        <p className="person">9. ()</p>
+                        <p className="person">10. ()</p>
+                        <p className="person">11. ()</p>
+                        <p className="person">12. ()</p>
                     </div>
                 </div>
             </div>
