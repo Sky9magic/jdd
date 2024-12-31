@@ -17,7 +17,7 @@ export default function About() {
             <div className="main" style={{alignItems:"center"}}>
                 <div className="desc">
                     <div style={{textAlign:"center"}}>
-                        <p className="desctext"><span className="aurora-text2">Junior dev</span> is an organization for hosting <span class="aurora-text3">contests</span> on various topics for people to practice doing problems ranging from <span style={{color:"#00ff00"}}>basic coding</span> to beyond <span style={{color:"#ed143d"}}>IOI</span></p>
+                        <p className="desctext"><span className="aurora-text2">Junior dev</span> is an organization for hosting <span className="aurora-text3">contests</span> on various topics for people to practice doing problems ranging from <span style={{color:"#00ff00"}}>basic coding</span> to beyond <span style={{color:"#ed143d"}}>IOI</span></p>
                         <p>made with ❤ by junior dev team members and friends</p>
                         <p>those who contributed to this project:</p>
                     </div>
