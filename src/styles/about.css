@@ -112,7 +112,7 @@ p {
     will-change: text-shadow, transform;
 }
 
-.aurora-text2:hover {
+.aurora-text3:hover {
     animation: pulsateLarger3 5s linear infinite;
     transform: scale(1.025);
 }
