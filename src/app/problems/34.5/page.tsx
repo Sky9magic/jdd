@@ -1,0 +1,21 @@
+"use client";
+
+import Header from "../../../components/header";
+import "../../../styles/subproblems.css";
+import Footer from "../../../components/footer";
+
+const Page = () => {
+  return (
+    <>
+      <Header/>
+      <div className="main">
+        <div className="pdffile">
+          <embed src="/34.5.pdf" width="800px" height="600px" type="application/pdf"></embed>
+        </div>
+      </div>
+      <Footer/>
+    </>
+  );
+};
+
+export default Page;
