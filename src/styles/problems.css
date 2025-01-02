@@ -33,7 +33,7 @@ body {
 .problem {
     width: 113.5vh;
     display: flex;
-    height: 12.5vh;
+    height: auto;
     border-width: 3px;
     border-radius: 10px;
     border-color: blue;
