@@ -9,6 +9,9 @@ const Page = () => {
     <>
       <Header/>
       <div className="main">
+        <a className="submit" href="https://beta-jdev.vercel.app/problems/34" target="_blank" rel="noopener noreferrer">
+          Solve Problem
+        </a>
         <div className="pdffile">
           <embed src="/34.5.pdf" width="800px" height="600px" type="application/pdf"></embed>
         </div>
