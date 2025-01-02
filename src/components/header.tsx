@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import "../styles/header_styles.css";
+import RefreshButton from "./refresh_btn";
 
 export default function Header() {
     return (
@@ -10,7 +11,8 @@ export default function Header() {
                 <Link href="/">Home</Link>
                 <Link href="/problems">Problems</Link>
                 <Link href="/contests">Contests</Link>
-                <Link href="/settings">Settings</Link>
+                <Link href="/about">About</Link>
+                <RefreshButton />
             </nav>
         </header>
     );

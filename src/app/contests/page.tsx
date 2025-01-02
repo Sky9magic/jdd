@@ -4,11 +4,11 @@ import React, { useEffect } from "react";
 import Header from '../../components/header';
 import Footer from "../../components/footer";
 import "../../styles/contests.css";
-
+  
 export default function Contests() {
     useEffect(() => {
         const second = 1000, minute = second * 60, hour = minute * 60, day = hour * 24;
-        const targetDate = new Date("2024-12-30T18:00:00Z").getTime();
+        const targetDate = new Date("2024-12-30T11:00:00Z").getTime();
 
         const x = setInterval(function() {
             const now = new Date().getTime();
@@ -20,7 +20,7 @@ export default function Contests() {
             document.getElementById("seconds")!.innerText = Math.floor((distance % minute) / second).toString();
 
             if (distance < 0) {
-                document.getElementById("countdown")!.innerHTML = "<h2>The countdown has ended!</h2>";
+                document.getElementById("countdown")!.innerHTML = "<h2>The contest has started!</h2>";
                 clearInterval(x);
             }
         }, 1000);
@@ -31,7 +31,10 @@ export default function Contests() {
         <>
             <Header />
             <div className="main">
-                <div className="title"><center>Contests (Time is displayed as UTC+7 timezone)</center></div>
+                <div className="aurora-container2">
+                    <h1 className="aurora-text2">Contests</h1>
+                </div>
+                <p className="timezone">(Time is displayed as UTC+7 timezone)</p>
                 <div className="main_2">
                     {/* opal_Inwza007x Annocument code */}
                     <div className="hero">
@@ -128,7 +131,7 @@ export default function Contests() {
                                             </div>
                                         </a>
                                         <br />
-                                    </div>
+                                    </div> 
                             </div>
                         </div>
                     </div>

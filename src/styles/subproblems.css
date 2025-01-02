@@ -11,7 +11,8 @@
 }
 
 .submit {
-    margin-right: 10%;
+    margin: 10px;
+    margin-right: 80px;
     padding: 20px;
     color: #fff;
     background-color: #000000;
@@ -25,4 +26,6 @@
     color: #c3c3c3;
     border-color: #00ff76;
     padding: 0px;
+    margin: 30px;
+    margin-right: 100px;
 }

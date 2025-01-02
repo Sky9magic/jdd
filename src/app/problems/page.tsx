@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Header from "../../components/header";
 import "../../styles/problems.css";
 import Footer from "../../components/footer";
-import Link from "next/link";
+import Link from "next/link"; 
 
 export default function Problems() {
     const problemsList = [
@@ -54,7 +54,7 @@ export default function Problems() {
         <>
             <Header />
             <div className="main">
-                <div className="problemstitle"><h2>Problems</h2></div>
+                <div className="problemstitle aurora-container"><h2 className="aurora-text2">Problems</h2></div>
                 <div className="search-bar">
                     <input
                         type="text"
