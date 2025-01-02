@@ -41,7 +41,7 @@ export default function Contests() {
                             <h1 className="second-blinking-dot">.</h1>
                             <h1 className="third-blinking-dot">.</h1>
                             <br />
-                            <div className="moving-frame">
+                            {/* <div className="moving-frame">
                                 <a href="https://juniordev.contest.codeforces.com/group/eScIVDG1u2/contests" target="_blank" rel="noopener noreferrer">
                                     <img className="poster-img" src="https://beta-jdev.vercel.app/Poster_2567NewYearContest.png" alt="Poster" />
                                 </a>
@@ -68,7 +68,8 @@ export default function Contests() {
                                         <li><span id="seconds"></span> Seconds</li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
+                            <h1>There Are No Upcoming Contests</h1>
                         </div>
                     </div>
                     {/* opal_Inwza007x Annocument code */}
@@ -79,6 +80,18 @@ export default function Contests() {
                         <div className="container">
                             <div className="right-half">
                                     <div className="list2">
+                                        <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/570964" target="_blank" rel="noopener noreferrer">
+                                            <div className="flex" style={{ alignItems: "center" }}>
+                                                <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
+                                                    <b>Junior Dev New Year Contest 2025</b>
+                                                    8/Oct/2024 19:00 - 9/Oct/2024 00:00
+                                                </div>
+                                                <div>
+                                                    <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <br />
                                         <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/560196" target="_blank" rel="noopener noreferrer">
                                             <div className="flex" style={{ alignItems: "center" }}>
                                                 <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
