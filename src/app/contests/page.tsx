@@ -87,7 +87,7 @@ export default function Contests() {
                                             <div className="flex" style={{ alignItems: "center" }}>
                                                 <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
                                                     <b>Junior Dev New Year Contest 2025</b>
-                                                    8/Oct/2024 19:00 - 9/Oct/2024 00:00
+                                                    30/Dec/2024 18:00 - 1/Jan/2025 00:00
                                                 </div>
                                                 <div>
                                                     <img className="platform" src="/codeforces.webp" alt="Codeforces" />
