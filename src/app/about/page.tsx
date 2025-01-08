@@ -22,11 +22,11 @@ export default function About() {
                         <p>those who contributed to this project:</p>
                     </div>
                     <div className="listww">
-                        <p className="person">1.Detective conan (The CEO of the Junior Dev organization)</p>
-                        <p className="person">2.Nagorn (Starter of the junior dev website)</p>
-                        <p className="person">3.kaopj (Has contributed in helping Nagorn making the website, has created problems for contests)</p>
-                        <p className="person">4.opal_Inwza007x (Has contributed in helping Nagorn making the website)</p>
-                        <p className="person">5. ()</p>
+                        <p className="person">1. Detective conan (The CEO of the Junior Dev organization)</p>
+                        <p className="person">2. Nagorn (Starter of the junior dev website)</p>
+                        <p className="person">3. kaopj (Has contributed in helping Nagorn making the website, has created problems for contests)</p>
+                        <p className="person">4. opal_Inwza007x (Has contributed in helping Nagorn making the website)</p>
+                        <p className="person">5. MisterO</p>
                         <p className="person">6. ()</p>
                         <p className="person">7. ()</p>
                         <p className="person">8. ()</p>
