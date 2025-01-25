@@ -34,7 +34,7 @@ export default function About() {
                         <p className="person">chawinkn</p>
                         <p className="person">MisterO</p>
                         <p className="person">mistertfy64</p>
-                        <p className="person">a0msin</p>
+                        <p className="person">a0ms1n</p>
                         <p className="person">Chanon</p>
                         <p className="person">Detective Got</p>
                         <p className="person">Dormon</p>
