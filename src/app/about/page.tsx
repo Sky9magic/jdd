@@ -22,18 +22,29 @@ export default function About() {
                         <p>those who contributed to this project:</p>
                     </div>
                     <div className="listww">
-                        <p className="person">1.Detective conan (The CEO of the Junior Dev organization)</p>
-                        <p className="person">2.Nagorn (Starter of the junior dev website)</p>
-                        <p className="person">3.kaopj (Has contributed in helping Nagorn making the website, has created problems for contests)</p>
-                        <p className="person">4.opal_Inwza007x (Has contributed in helping Nagorn making the website)</p>
-                        <p className="person">5. ()</p>
-                        <p className="person">6. ()</p>
-                        <p className="person">7. ()</p>
-                        <p className="person">8. ()</p>
-                        <p className="person">9. ()</p>
-                        <p className="person">10. ()</p>
-                        <p className="person">11. ()</p>
-                        <p className="person">12. ()</p>
+                        <p className="person">Detective conan</p>
+                        <p className="person">Mingyuanz</p>
+                        <p className="person">kaopj</p>
+                        <p className="person">Nagorn[website]</p>
+                        <p className="person">opal_Inwza007x</p>
+                        <p className="person">njoop</p>
+                        <p className="person">Pakindioxide</p>
+                        <p className="person">CaRaMeL</p>
+                        <p className="person">NeighborhoodCat</p>
+                        <p className="person">chawinkn</p>
+                        <p className="person">MisterO</p>
+                        <p className="person">mistertfy64</p>
+                        <p className="person">a0msin</p>
+                        <p className="person">Chanon</p>
+                        <p className="person">Detective Got</p>
+                        <p className="person">Dormon</p>
+                        <p className="person">KG07</p>
+                        <p className="person">hotheadexe</p>
+                        <p className="person">ikkainoiz</p>
+                        <p className="person">MiN</p>
+                        <p className="person">NovemNotes</p>
+                        <p className="person">himmmm</p>
+                        <p className="person">CCSleep</p>
                     </div>
                 </div>
             </div>
