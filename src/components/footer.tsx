@@ -23,7 +23,7 @@ export default function Footer() {
     return (
         <footer className="Footer">
             <center className="text-footer">
-                <Link href="/">© 2025 Junior Dev. <s>All rights reserved.</s> I don't give a fast fourier transform about it you can just copy the problems lmao -kaopj</Link>
+                <Link href="/">© 2025 Junior Dev. <s>All rights reserved.</s> I don&apos;t give a fast fourier transform about it you can just copy the problems lmao -kaopj</Link>
             </center>
             <div className="themebutton">
                 {/* Toggle Theme:  */}
