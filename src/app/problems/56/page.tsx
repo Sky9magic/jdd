@@ -9,7 +9,7 @@ const Page = () => {
     <>
       <Header/>
       <div className="main">
-        <a className="submit" href="https://codeforces.com/group/eScIVDG1u2/contest/553127/submit" target="_blank" rel="noopener noreferrer">
+        <a className="submit" href="https://codeforces.com/group/eScIVDG1u2/contest/577918/submit?submittedProblemIndex=%22C%22" target="_blank" rel="noopener noreferrer">
           Submit Code
         </a>
         <div className="pdffile">
