@@ -83,6 +83,18 @@ export default function Contests() {
                         <div className="container">
                             <div className="right-half">
                                     <div className="list2">
+                                        <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/577918" target="_blank" rel="noopener noreferrer">
+                                            <div className="flex" style={{ alignItems: "center" }}>
+                                                <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
+                                                    <b>Junior Dev Valentine Contest 2025</b>
+                                                    22/Feb/2025 16:00 - 23/Feb/2025 00:00
+                                                </div>
+                                                <div>
+                                                    <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <br />
                                         <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/570964" target="_blank" rel="noopener noreferrer">
                                             <div className="flex" style={{ alignItems: "center" }}>
                                                 <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
