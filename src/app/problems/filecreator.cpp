@@ -5,7 +5,7 @@ namespace fs = std::filesystem;
 
 int main() {
     string basePath = "C:\\Users\\nagor_kxkrebj\\OneDrive\\Desktop\\jd\\src\\app\\problems\\";
-    for (int i = 28; i <= 53; i++) {
+    for (int i = 54; i <= 59; i++) {
         string folderPath = basePath + to_string(i);
         if (fs::create_directory(folderPath)) {
             cout << "Created folder: " << folderPath << endl;
