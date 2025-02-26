@@ -66,7 +66,13 @@ export default function Problems() {
         { name: "Integral Queries", index: 50, contest: "Junior Dev New Year Contest 2025" },
         { name: "Present", index: 51, contest: "Junior Dev New Year Contest 2025" },
         { name: "Exercising", index: 52, contest: "Junior Dev New Year Contest 2025" },
-        { name: "Seating 2", index: 53, contest: "Junior Dev New Year Contest 2025" }
+        { name: "Seating 2", index: 53, contest: "Junior Dev New Year Contest 2025" },
+        { name: "This Heart Is For You", index: 54, contest: "Junior Dev Valentine Contest 2025" },
+        { name: "Worry", index: 55, contest: "Junior Dev Valentine Contest 2025" },
+        { name: "Smiley", index: 56, contest: "Junior Dev Valentine Contest 2025" },
+        { name: "Catfishing", index: 57, contest: "Junior Dev Valentine Contest 2025" },
+        { name: "Reality Check", index: 58, contest: "Junior Dev Valentine Contest 2025" },
+        { name: "Last Hope", index: 59, contest: "Junior Dev Valentine Contest 2025" },
         
 
     ];
