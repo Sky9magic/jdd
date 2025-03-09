@@ -1,13 +1,14 @@
-"use client";
+// /app/login/page.tsx
+'use client';
 
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/navigation';
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  const navigate = useNavigate();
+  const router = useRouter();
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -15,7 +16,7 @@ const Login: React.FC = () => {
     // Simple authentication logic for demonstration:
     if (username === 'admin' && password === 'password') {
       // Successful login: navigate to a protected route (e.g. /dashboard)
-      navigate('/dashboard');
+      router.push('/dashboard');
     } else {
       setErrorMessage('Invalid username or password.');
     }
