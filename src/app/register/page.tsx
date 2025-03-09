@@ -1,5 +1,5 @@
-// /app/register/page.tsx
 'use client';
+export const dynamic = 'force-dynamic';
 
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -16,19 +16,18 @@ const Register: React.FC = () => {
   const handleRegister = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Basic client-side validation
+    // Basic validation
     if (!username || !email || !password || !confirmPassword) {
       setErrorMessage('Please fill in all fields.');
       return;
     }
-
     if (password !== confirmPassword) {
       setErrorMessage('Passwords do not match.');
       return;
     }
 
-    // In a real-world application, you would send a request to your backend API here.
-    // For demonstration purposes, we'll assume registration is successful and redirect to login.
+    // Here you would normally send the registration data to your backend.
+    // For demonstration, we assume registration is successful and redirect to login.
     router.push('/login');
   };
 
@@ -82,7 +81,7 @@ const Register: React.FC = () => {
         </button>
         <div style={styles.loginContainer}>
           <span>Already have an account? </span>
-          <Link href="/login" style={styles.loginLink}>
+          <Link href="/login" style={styles.link}>
             Login
           </Link>
         </div>
@@ -113,15 +112,15 @@ const styles: { [key: string]: React.CSSProperties } = {
     flexDirection: 'column',
   },
   input: {
-    marginTop: '0.5rem',
+    width: '100%',
     padding: '0.5rem',
+    marginTop: '0.5rem',
     borderRadius: '4px',
     border: '1px solid #ccc',
-    width: '100%',
   },
   button: {
     width: '100%',
-    padding: '0.5rem 1rem',
+    padding: '0.5rem',
     borderRadius: '4px',
     border: 'none',
     backgroundColor: '#28a745',
@@ -138,7 +137,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     marginTop: '1rem',
     textAlign: 'center',
   },
-  loginLink: {
+  link: {
     color: '#007bff',
     textDecoration: 'underline',
     cursor: 'pointer',

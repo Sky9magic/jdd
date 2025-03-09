@@ -1,5 +1,5 @@
-// /app/login/page.tsx
 'use client';
+export const dynamic = 'force-dynamic';
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -14,10 +14,9 @@ const Login: React.FC = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Simple authentication logic for demonstration:
+    // Example authentication logic
     if (username === 'admin' && password === 'password') {
-      // Successful login: navigate to a protected route (e.g. /dashboard)
-      router.push('/dashboard');
+      router.push('/dashboard'); // Change this route as needed.
     } else {
       setErrorMessage('Invalid username or password.');
     }
@@ -51,7 +50,7 @@ const Login: React.FC = () => {
         <button type="submit" style={styles.button}>Log In</button>
         <div style={styles.registerContainer}>
           <span>Don't have an account? </span>
-          <Link href="/register" style={styles.registerLink}>
+          <Link href="/register" style={styles.link}>
             Register
           </Link>
         </div>
@@ -80,15 +79,15 @@ const styles: { [key: string]: React.CSSProperties } = {
     marginBottom: '1rem',
   },
   input: {
-    marginLeft: '1rem',
+    width: '100%',
     padding: '0.5rem',
+    marginTop: '0.5rem',
     borderRadius: '4px',
     border: '1px solid #ccc',
-    width: '100%',
   },
   button: {
     width: '100%',
-    padding: '0.5rem 1rem',
+    padding: '0.5rem',
     borderRadius: '4px',
     border: 'none',
     backgroundColor: '#007bff',
@@ -99,12 +98,13 @@ const styles: { [key: string]: React.CSSProperties } = {
   error: {
     color: 'red',
     marginBottom: '1rem',
+    textAlign: 'center',
   },
   registerContainer: {
     marginTop: '1rem',
     textAlign: 'center',
   },
-  registerLink: {
+  link: {
     color: '#007bff',
     textDecoration: 'underline',
     cursor: 'pointer',
