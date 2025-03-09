@@ -47,6 +47,16 @@ const Register: React.FC = () => {
           />
         </div>
         <div style={styles.inputGroup}>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            style={styles.input}
+          />
+        </div>
+        <div style={styles.inputGroup}>
           <label htmlFor="password">Password:</label>
           <input
             type="password"
