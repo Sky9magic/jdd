@@ -26,8 +26,8 @@ const Register: React.FC = () => {
       return;
     }
 
-    // Here you would normally send the registration data to your backend.
-    // For demonstration, we assume registration is successful and redirect to login.
+    // In a real app, submit registration data to your backend.
+    // For this demo, assume registration is successful and redirect to login.
     router.push('/login');
   };
 

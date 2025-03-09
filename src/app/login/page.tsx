@@ -16,7 +16,7 @@ const Login: React.FC = () => {
 
     // Example authentication logic
     if (username === 'admin' && password === 'password') {
-      router.push('/dashboard'); // Change this route as needed.
+      router.push('/dashboard'); // Adjust this route as needed.
     } else {
       setErrorMessage('Invalid username or password.');
     }
@@ -49,7 +49,7 @@ const Login: React.FC = () => {
         </div>
         <button type="submit" style={styles.button}>Log In</button>
         <div style={styles.registerContainer}>
-          <span>Don't have an account? </span>
+          <span>Don&apos;t have an account? </span>
           <Link href="/register" style={styles.link}>
             Register
           </Link>
