@@ -1,32 +1,41 @@
-// /app/login/page.tsx
+// /app/register/page.tsx
 'use client';
 
 import React, { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
-const Login: React.FC = () => {
+const Register: React.FC = () => {
   const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const router = useRouter();
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleRegister = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Simple authentication logic for demonstration:
-    if (username === 'admin' && password === 'password') {
-      // Successful login: navigate to a protected route (e.g. /dashboard)
-      router.push('/dashboard');
-    } else {
-      setErrorMessage('Invalid username or password.');
+    // Basic client-side validation
+    if (!username || !email || !password || !confirmPassword) {
+      setErrorMessage('Please fill in all fields.');
+      return;
     }
+
+    if (password !== confirmPassword) {
+      setErrorMessage('Passwords do not match.');
+      return;
+    }
+
+    // In a real-world application, you would send a request to your backend API here.
+    // For demonstration purposes, we'll assume registration is successful and redirect to login.
+    router.push('/login');
   };
 
   return (
     <div style={styles.container}>
-      <form onSubmit={handleLogin} style={styles.form}>
-        <h2>Login</h2>
+      <form onSubmit={handleRegister} style={styles.form}>
+        <h2>Register</h2>
         {errorMessage && <div style={styles.error}>{errorMessage}</div>}
         <div style={styles.inputGroup}>
           <label htmlFor="username">Username:</label>
@@ -35,6 +44,16 @@ const Login: React.FC = () => {
             id="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            style={styles.input}
+          />
+        </div>
+        <div style={styles.inputGroup}>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             style={styles.input}
           />
         </div>
@@ -48,11 +67,23 @@ const Login: React.FC = () => {
             style={styles.input}
           />
         </div>
-        <button type="submit" style={styles.button}>Log In</button>
-        <div style={styles.registerContainer}>
-          <span>Don't have an account? </span>
-          <Link href="/register" style={styles.registerLink}>
-            Register
+        <div style={styles.inputGroup}>
+          <label htmlFor="confirmPassword">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
+            style={styles.input}
+          />
+        </div>
+        <button type="submit" style={styles.button}>
+          Register
+        </button>
+        <div style={styles.loginContainer}>
+          <span>Already have an account? </span>
+          <Link href="/login" style={styles.loginLink}>
+            Login
           </Link>
         </div>
       </form>
@@ -78,9 +109,11 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   inputGroup: {
     marginBottom: '1rem',
+    display: 'flex',
+    flexDirection: 'column',
   },
   input: {
-    marginLeft: '1rem',
+    marginTop: '0.5rem',
     padding: '0.5rem',
     borderRadius: '4px',
     border: '1px solid #ccc',
@@ -91,7 +124,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     padding: '0.5rem 1rem',
     borderRadius: '4px',
     border: 'none',
-    backgroundColor: '#007bff',
+    backgroundColor: '#28a745',
     color: '#fff',
     cursor: 'pointer',
     marginTop: '1rem',
@@ -99,16 +132,17 @@ const styles: { [key: string]: React.CSSProperties } = {
   error: {
     color: 'red',
     marginBottom: '1rem',
+    textAlign: 'center',
   },
-  registerContainer: {
+  loginContainer: {
     marginTop: '1rem',
     textAlign: 'center',
   },
-  registerLink: {
+  loginLink: {
     color: '#007bff',
     textDecoration: 'underline',
     cursor: 'pointer',
   },
 };
 
-export default Login;
+export default Register;
