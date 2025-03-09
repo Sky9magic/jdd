@@ -7,7 +7,6 @@ import { useRouter } from 'next/navigation';
 
 const Register: React.FC = () => {
   const [username, setUsername] = useState('');
-  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -16,8 +15,8 @@ const Register: React.FC = () => {
   const handleRegister = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Basic validation
-    if (!username || !email || !password || !confirmPassword) {
+    // Basic validation: Check for empty fields and matching passwords
+    if (!username || !password || !confirmPassword) {
       setErrorMessage('Please fill in all fields.');
       return;
     }
@@ -43,16 +42,6 @@ const Register: React.FC = () => {
             id="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            style={styles.input}
-          />
-        </div>
-        <div style={styles.inputGroup}>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
             style={styles.input}
           />
         </div>
