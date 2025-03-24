@@ -33,6 +33,7 @@ export default function About() {
                         <p className="person">NeighborhoodCat</p>
                         <p className="person">chawinkn</p>
                         <p className="person">MisterO</p>
+                        <p className="person">FIFAnoice</p>
                         <p className="person">mistertfy64</p>
                         <p className="person">a0ms1n</p>
                         <p className="person">Chanon</p>
