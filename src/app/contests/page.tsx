@@ -94,6 +94,7 @@ export default function Contests() {
                                                 </div>
                                             </div>
                                         </a>
+                                        <br />
                                         <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/591788" target="_blank" rel="noopener noreferrer">
                                             <div className="flex" style={{ alignItems: "center" }}>
                                                 <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
@@ -105,6 +106,7 @@ export default function Contests() {
                                                 </div>
                                             </div>
                                         </a>
+                                        <br />
                                         <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/577918" target="_blank" rel="noopener noreferrer">
                                             <div className="flex" style={{ alignItems: "center" }}>
                                                 <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
