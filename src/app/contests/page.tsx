@@ -83,6 +83,28 @@ export default function Contests() {
                         <div className="container">
                             <div className="right-half">
                                     <div className="list2">
+                                        <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/591792" target="_blank" rel="noopener noreferrer">
+                                            <div className="flex" style={{ alignItems: "center" }}>
+                                                <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
+                                                    <b>Pre-POSN2 Contest Day 2 (2025)</b>
+                                                    16/Mar/2025 18:30 - 23:00
+                                                </div>
+                                                <div>
+                                                    <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/591788" target="_blank" rel="noopener noreferrer">
+                                            <div className="flex" style={{ alignItems: "center" }}>
+                                                <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
+                                                    <b>Pre-POSN2 Contest Day 1 (2025)</b>
+                                                    15/Mar/2025 18:00 - 22:00
+                                                </div>
+                                                <div>
+                                                    <img className="platform" src="/codeforces.webp" alt="Codeforces" />
+                                                </div>
+                                            </div>
+                                        </a>
                                         <a className="contest" href="https://codeforces.com/group/eScIVDG1u2/contest/577918" target="_blank" rel="noopener noreferrer">
                                             <div className="flex" style={{ alignItems: "center" }}>
                                                 <div style={{ textAlign: 'center' }} className="flex flex-1 flex-col">
